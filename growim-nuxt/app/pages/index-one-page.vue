@@ -10,6 +10,7 @@
     <div id="pricing"><PricingTable /></div>
     <div id="team"><TeamSection /></div>
     <div id="testimonials"><TestimonialSlider /></div>
+    <TextMarquee />
     <div id="blog"><BlogHighlights /></div>
     <div id="contact"><CtaBanner /></div>
   </div>
@@ -26,6 +27,7 @@ import PortfolioShowcase from '~/components/home/PortfolioShowcase.vue'
 import PricingTable from '~/components/home/PricingTable.vue'
 import TeamSection from '~/components/home/TeamSection.vue'
 import TestimonialSlider from '~/components/home/TestimonialSlider.vue'
+import TextMarquee from '~/components/home/TextMarquee.vue'
 import BlogHighlights from '~/components/home/BlogHighlights.vue'
 import CtaBanner from '~/components/home/CtaBanner.vue'
 

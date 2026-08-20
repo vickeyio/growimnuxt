@@ -15,6 +15,7 @@
           <div class="blog-card bg-white rounded overflow-hidden shadow-sm h-100">
             <div class="blog-card__image">
               <img :src="post.image" :alt="post.title" class="img-fluid" />
+              <img :src="post.image" :alt="post.title" class="img-fluid" />
             </div>
             <div class="blog-card__content p-4">
               <span class="badge bg-light text-primary px-3 py-1 mb-2">{{ post.category }}</span>

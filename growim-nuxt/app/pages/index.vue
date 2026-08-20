@@ -30,9 +30,11 @@
     <!-- Testimonials Slider -->
     <TestimonialSlider />
 
+    <!-- Branding & Marketing Marquee Banner -->
+    <TextMarquee />
+
     <!-- Recent Blog Articles -->
     <BlogHighlights />
-
     <!-- Newsletter CTA Banner -->
     <CtaBanner />
   </div>
@@ -49,6 +51,7 @@ import PortfolioShowcase from '~/components/home/PortfolioShowcase.vue'
 import PricingTable from '~/components/home/PricingTable.vue'
 import TeamSection from '~/components/home/TeamSection.vue'
 import TestimonialSlider from '~/components/home/TestimonialSlider.vue'
+import TextMarquee from '~/components/home/TextMarquee.vue'
 import BlogHighlights from '~/components/home/BlogHighlights.vue'
 import CtaBanner from '~/components/home/CtaBanner.vue'
 

@@ -38,6 +38,7 @@
           <div class="blog-card">
             <div class="blog-card__image">
               <img :src="post.image" :alt="post.title" />
+              <img :src="post.image" :alt="post.title" />
               <NuxtLink :to="post.link" class="blog-card__image__link">
                 <span class="sr-only">{{ post.title }}</span>
               </NuxtLink>

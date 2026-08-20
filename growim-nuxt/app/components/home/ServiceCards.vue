@@ -42,7 +42,7 @@
 
       <!-- Tab Content Area -->
       <div class="tabs-content">
-        <div class="tab animated fadeIn" :key="activeTab">
+        <div class="tab animated fadeIn active-tab" :key="activeTab">
           <div class="row gutter-y-30">
             <div
               v-for="service in currentServices"

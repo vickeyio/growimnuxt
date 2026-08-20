@@ -14,8 +14,8 @@
         }"
         class="main-slider-two__swiper"
       >
-        <SwiperSlide v-for="(slide, index) in slides" :key="index">
-          <div class="main-slider-two__item">
+        <SwiperSlide v-for="(slide, index) in slides" :key="index" v-slot="{ isActive }">
+          <div class="main-slider-two__item" :class="{ active: isActive }">
             <div class="main-slider-two__bg">
               <img :src="slide.bg" alt="growim" />
               <img :src="slide.bg" alt="growim" />
