@@ -180,16 +180,10 @@
             <span></span>
           </a>
 
-          <!-- Contact Phone Widget -->
-          <div class="main-header__right__contact d-none d-xl-flex">
-            <div class="main-header__right__contact__icon">
-              <i class="flaticon-phone"></i>
-            </div>
-            <div class="main-header__right__contact__content">
-              <span>Need help? Talk to us</span>
-              <a href="tel:+2085550112">+208-555-0112</a>
-            </div>
-          </div>
+          <!-- Header CTA Button -->
+          <NuxtLink to="/contact" class="growim-btn growim-btn--white main-header__btn d-none d-xl-inline-block">
+            <span class="growim-btn__text">Start A Project</span>
+          </NuxtLink>
 
           <!-- Mobile Nav Hamburger Trigger -->
           <div

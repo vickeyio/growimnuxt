@@ -1,0 +1,100 @@
+/*
+ * Growim "Flaticon" → FontAwesome 5 Free Mapping
+ *
+ * The original template used a custom "Flaticon" icon font.
+ * Since those font files are unavailable, every flaticon-* class
+ * is mapped to the closest FontAwesome 5 Free glyph.
+ *
+ * Codepoints verified against the local copy of
+ * /assets/vendors/fontawesome/css/all.min.css  (FA 5.15.1)
+ */
+
+[class^="flaticon-"], [class*=" flaticon-"] {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  speak: never;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Arrows & Navigation ─────────────────────────────── */
+.flaticon-up-right-arrow:before         { content: "\f30b"; }   /* long-arrow-alt-right */
+.flaticon-up-left-arrow:before          { content: "\f30a"; }   /* long-arrow-alt-left  */
+.flaticon-long-arrow-right:before       { content: "\f30b"; }   /* long-arrow-alt-right */
+.flaticon-long-arrow-left:before        { content: "\f30a"; }   /* long-arrow-alt-left  */
+.flaticon-left-angle:before             { content: "\f104"; }   /* angle-left           */
+.flaticon-right-angle:before            { content: "\f105"; }   /* angle-right          */
+.flaticon-flaticon-arrow-left:before    { content: "\f053"; }   /* chevron-left         */
+.flaticon-flaticon-arrow-right:before   { content: "\f054"; }   /* chevron-right        */
+.flaticon-flaticon-long-down:before     { content: "\f078"; }   /* chevron-down         */
+.flaticon-flaticon-long-up:before       { content: "\f077"; }   /* chevron-up           */
+.flaticon-left-arrows:before            { content: "\f053"; }   /* chevron-left         */
+.flaticon-right-arrows:before           { content: "\f054"; }   /* chevron-right        */
+.flaticon-double-arrow-right:before     { content: "\f101"; }   /* angle-double-right   */
+.flaticon-double-arrow-left:before      { content: "\f100"; }   /* angle-double-left    */
+.flaticon-arrow:before                  { content: "\f061"; }   /* arrow-right          */
+.flaticon-curved-arrow:before           { content: "\f064"; }   /* share                */
+.flaticon-curved-arrow-up:before        { content: "\f062"; }   /* arrow-up             */
+
+/* ── UI / General ────────────────────────────────────── */
+.flaticon-search:before                 { content: "\f002"; }   /* search               */
+.flaticon-cart:before                   { content: "\f07a"; }   /* shopping-cart         */
+.flaticon-user:before                   { content: "\f007"; }   /* user                 */
+.flaticon-user-two:before               { content: "\f007"; }
+.flaticon-check:before                  { content: "\f00c"; }   /* check                */
+.flaticon-check-two:before              { content: "\f00c"; }
+.flaticon-close:before                  { content: "\f00d"; }   /* times                */
+.flaticon-plus:before                   { content: "\f067"; }   /* plus                 */
+.flaticon-minus:before                  { content: "\f068"; }   /* minus                */
+.flaticon-menu:before                   { content: "\f0c9"; }   /* bars                 */
+.flaticon-dots:before                   { content: "\f141"; }   /* ellipsis-h           */
+.flaticon-tag:before                    { content: "\f02b"; }   /* tag                  */
+.flaticon-star:before                   { content: "\f005"; }   /* star                 */
+.flaticon-share:before                  { content: "\f1e0"; }   /* share-alt            */
+
+/* ── Communication ───────────────────────────────────── */
+.flaticon-paper-plan:before             { content: "\f1d8"; }   /* paper-plane          */
+.flaticon-pin:before                    { content: "\f3c5"; }   /* map-marker-alt       */
+.flaticon-phone:before                  { content: "\f095"; }   /* phone                */
+.flaticon-telephone:before              { content: "\f879"; }   /* phone-alt            */
+.flaticon-email:before                  { content: "\f0e0"; }   /* envelope             */
+.flaticon-mail:before                   { content: "\f0e0"; }
+.flaticon-comment:before                { content: "\f075"; }   /* comment              */
+.flaticon-comments-icon:before          { content: "\f086"; }   /* comments             */
+.flaticon-comment-three:before          { content: "\f075"; }
+
+/* ── Time ────────────────────────────────────────────── */
+.flaticon-time:before                   { content: "\f017"; }   /* clock                */
+
+/* ── Content ─────────────────────────────────────────── */
+.flaticon-quote:before                  { content: "\f10d"; }   /* quote-left           */
+.flaticon-quote-two:before              { content: "\f10d"; }
+.flaticon-quote-three:before            { content: "\f10e"; }   /* quote-right          */
+
+/* ── Business / Services ─────────────────────────────── */
+.flaticon-code:before                   { content: "\f121"; }   /* code                 */
+.flaticon-design:before                 { content: "\f53f"; }   /* palette              */
+.flaticon-sketch:before                 { content: "\f53f"; }
+.flaticon-database:before               { content: "\f1c0"; }   /* database             */
+.flaticon-consulting:before             { content: "\f0ae"; }   /* tasks                */
+.flaticon-business:before               { content: "\f1ad"; }   /* building             */
+.flaticon-bonding:before                { content: "\f0c0"; }   /* users                */
+.flaticon-client:before                 { content: "\f0c0"; }
+.flaticon-team:before                   { content: "\f0c0"; }
+.flaticon-app-development:before        { content: "\f3cd"; }   /* mobile-alt           */
+.flaticon-app-development1:before       { content: "\f3cd"; }
+.flaticon-website:before                { content: "\f108"; }   /* desktop              */
+.flaticon-website1:before               { content: "\f108"; }
+.flaticon-seo:before                    { content: "\f002"; }   /* search (≈ seo)       */
+.flaticon-marketing:before              { content: "\f0a1"; }   /* bullhorn             */
+.flaticon-media:before                  { content: "\f03d"; }   /* video                */
+.flaticon-service:before                { content: "\f085"; }   /* cogs                 */
+.flaticon-solution:before               { content: "\f0eb"; }   /* lightbulb            */
+.flaticon-mission:before                { content: "\f05b"; }   /* crosshairs           */
+.flaticon-technology:before             { content: "\f108"; }   /* desktop              */
+.flaticon-define:before                 { content: "\f5ac"; }   /* pen-fancy            */

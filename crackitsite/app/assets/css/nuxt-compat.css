@@ -1,0 +1,38 @@
+/* Owl-style nav buttons – reset browser defaults */
+.main-slider-two__carousel.owl-carousel .owl-nav button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Portfolio / Team / Testimonials / Client – keep Swiper contained */
+.portfolio-two .swiper,
+.team-two .swiper,
+.testimonials-two .swiper,
+.client-carousel .swiper {
+  overflow: hidden;
+}
+
+/* Hardcoded Flaticon overrides from growim.css */
+.footer-widget__links li::after,
+.service-sidebar__nav li::after,
+.product-one__showing-sort .bootstrap-select > .dropdown-toggle:before,
+.faq-one__accordion .accrodion-title__icon::after,
+.faq-two__accordion .accrodion-title__icon::after,
+.growim-breadcrumb li:not(:last-of-type)::after,
+.portfolio-four #portfolio-four__carousel .flipster__button--prev::before,
+.portfolio-four #portfolio-four__carousel .flipster__button--next::before,
+.product-one__reviews ul li label::after {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+}
+
+.footer-widget__links li::after { content: "\f101" !important; }
+.service-sidebar__nav li::after { content: "\f30b" !important; }
+.product-one__showing-sort .bootstrap-select > .dropdown-toggle:before { content: "\f105" !important; }
+.faq-one__accordion .accrodion-title__icon::after { content: "\f101" !important; }
+.faq-two__accordion .accrodion-title__icon::after { content: "\f101" !important; }
+.growim-breadcrumb li:not(:last-of-type)::after { content: "\f105" !important; }
+.portfolio-four #portfolio-four__carousel .flipster__button--prev::before { content: "\f053" !important; }
+.portfolio-four #portfolio-four__carousel .flipster__button--next::before { content: "\f054" !important; }
