@@ -1,0 +1,278 @@
+[
+  {
+    "id": "1",
+    "slug": "link-building-optimization",
+    "title": "Link Building Optimization",
+    "category": "SEO & Growth",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-1.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-1.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "web-development",
+    "title": "Web Development",
+    "category": "Development",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-2.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-2.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "digital-strategy",
+    "title": "Digital Strategy",
+    "category": "Strategy",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-3.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-3.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "brand-design-identity",
+    "title": "Brand Design Identity",
+    "category": "Branding",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-4.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-4.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "email-marketing",
+    "title": "Email Marketing",
+    "category": "Marketing",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-5.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-5.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "video-resches-optimization",
+    "title": "Video Resches optimization",
+    "category": "Optimization",
+    "shortDescription": "We can help you & routine audits to determine an SEO",
+    "fullDescription": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "fullDescriptionSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
+    "image": "/assets/images/resources/service-6-6.jpg",
+    "thumbnailImage": "/assets/images/resources/service-details-1.jpg",
+    "icon": "/assets/images/shapes/service-6-6.png",
+    "iconBg": "/assets/images/shapes/service-6-icon-bg.png",
+    "whatWeProvide": [
+      {
+        "title": "Brand Design <br>Identity",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-1.png"
+      },
+      {
+        "title": "Video Search <br>Optimization",
+        "description": "In order to scale new customer",
+        "icon": "/assets/images/shapes/service-3-2.png"
+      }
+    ],
+    "challengeText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "challengeBullets": [
+      "Various analysis options.",
+      "Page Load (time, size, number of requests).",
+      "Advance Data analysis operation.",
+      "Accusamus et iusto odio dignissimos."
+    ],
+    "faqs": [
+      {
+        "question": "How long should a business plan be?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What is included in your services?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      },
+      {
+        "question": "What type of company is measured?",
+        "answer": "There are many variations of passages Lorem Ipsum but the majority have suffered alteration in some form, by injected humor."
+      }
+    ]
+  }
+]

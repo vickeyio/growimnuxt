@@ -28,14 +28,14 @@
       >
         <SwiperSlide v-for="(item, index) in items" :key="index">
           <div class="portfolio-two__item">
-            <img :src="item.image" alt="crackit" />
+            <img :src="item.sliderImage || item.image" alt="crackit" />
             <div class="portfolio-two__item__content">
               <h3 class="portfolio-two__item__title">
-                <a href="#portfolio">{{ item.title }}</a>
+                <NuxtLink :to="`/portfolio/${item.slug}`">{{ item.title }}</NuxtLink>
               </h3>
               <h5 class="portfolio-two__item__cate">{{ item.category }}</h5>
               <div class="portfolio-two__item__btn">
-                <a href="#portfolio"><i class="flaticon-up-right-arrow"></i></a>
+                <NuxtLink :to="`/portfolio/${item.slug}`"><i class="flaticon-up-right-arrow"></i></NuxtLink>
               </div>
             </div>
           </div>
@@ -49,11 +49,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay as SwiperAutoplay, Navigation as SwiperNavigation } from 'swiper/modules'
 
-const items = [
-  { title: 'Generation Of Wealth', category: 'Marketing', image: '/assets/images/portfolio/portfolio-2-1.jpg' },
-  { title: 'Generation Of Wealth', category: 'Marketing', image: '/assets/images/portfolio/portfolio-2-2.jpg' },
-  { title: 'Generation Of Wealth', category: 'Marketing', image: '/assets/images/portfolio/portfolio-2-3.jpg' },
-  { title: 'Generation Of Wealth', category: 'Marketing', image: '/assets/images/portfolio/portfolio-2-4.jpg' },
-  { title: 'Generation Of Wealth', category: 'Marketing', image: '/assets/images/portfolio/portfolio-2-5.jpg' }
-]
+const { getPortfolioItems } = usePortfolio()
+const { data: response } = await getPortfolioItems()
+const items = computed(() => response.value?.data || [])
 </script>

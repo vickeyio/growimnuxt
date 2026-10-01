@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "bg": "/assets/images/backgrounds/slider-2-1.jpg",
+    "title": "<span>Digital</span> <br>Marketing <br>Expert",
+    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
+  },
+  {
+    "id": "2",
+    "bg": "/assets/images/backgrounds/slider-2-1.jpg",
+    "title": "<span>Digital</span> <br>Marketing <br>Expert",
+    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
+  },
+  {
+    "id": "3",
+    "bg": "/assets/images/backgrounds/slider-2-1.jpg",
+    "title": "<span>Digital</span> <br>Marketing <br>Expert",
+    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
+  }
+]

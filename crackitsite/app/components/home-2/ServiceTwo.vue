@@ -20,75 +20,29 @@
     </div>
     <div class="container">
       <div class="row gutter-y-30">
-        <div class="col-lg-8">
-          <div class="service-two__item">
+        <div
+          v-for="(service, index) in featuredServices"
+          :key="service.id"
+          :class="index === 0 || index === 3 ? 'col-lg-8' : 'col-lg-4'"
+        >
+          <div
+            class="service-two__item"
+            :class="{ 'service-two__item--no-image': index !== 0 && index !== 3 }"
+          >
             <div class="service-two__item__content">
               <h3 class="service-two__item__title">
-                <a href="#services">SEO & Analytics</a>
+                <NuxtLink :to="`/services/${service.slug}`">{{ service.title }}</NuxtLink>
               </h3>
               <p class="service-two__item__text">
-                In order to scale new customer acquisition and retention for e-commerce brands,
-                we work across the entire customer journey. Our team has a successful
+                {{ service.shortDescription }}
               </p>
-              <a class="service-two__item__rm" href="#services">
+              <NuxtLink class="service-two__item__rm" :to="`/services/${service.slug}`">
                 <i class="flaticon-up-right-arrow"></i>
-              </a>
+              </NuxtLink>
               <div class="service-two__item__number"></div>
             </div>
-            <div class="service-two__item__image">
-              <img src="/assets/images/resources/service-2-1.jpg" alt="crackit" />
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="service-two__item service-two__item--no-image">
-            <div class="service-two__item__content">
-              <h3 class="service-two__item__title">
-                <a href="#services">Digital Strategy</a>
-              </h3>
-              <p class="service-two__item__text">
-                In order to scale new customer acquisition and retention for e-commerce brands, we work across thel
-              </p>
-              <a class="service-two__item__rm" href="#services">
-                <i class="flaticon-up-right-arrow"></i>
-              </a>
-              <div class="service-two__item__number"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="service-two__item service-two__item--no-image">
-            <div class="service-two__item__content">
-              <h3 class="service-two__item__title">
-                <a href="#services">Strategy Creation</a>
-              </h3>
-              <p class="service-two__item__text">
-                In order to scale new customer acquisition and retention for e-commerce brands, we work across thel
-              </p>
-              <a class="service-two__item__rm" href="#services">
-                <i class="flaticon-up-right-arrow"></i>
-              </a>
-              <div class="service-two__item__number"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="service-two__item">
-            <div class="service-two__item__content">
-              <h3 class="service-two__item__title">
-                <a href="#services">Content Creation</a>
-              </h3>
-              <p class="service-two__item__text">
-                In order to scale new customer acquisition and retention for e-commerce brands,
-                we work across the entire customer journey. Our team has a successful
-              </p>
-              <a class="service-two__item__rm" href="#services">
-                <i class="flaticon-up-right-arrow"></i>
-              </a>
-              <div class="service-two__item__number"></div>
-            </div>
-            <div class="service-two__item__image">
-              <img src="/assets/images/resources/service-2-4.jpg" alt="crackit" />
+            <div v-if="index === 0 || index === 3" class="service-two__item__image">
+              <img :src="index === 0 ? '/assets/images/resources/service-2-1.jpg' : '/assets/images/resources/service-2-4.jpg'" :alt="service.title" />
             </div>
           </div>
         </div>
@@ -104,11 +58,17 @@
           <img src="/assets/images/resources/client-1-4.png" alt="crackit" />
           <span>1.5k Happy Clients</span>
         </div>
-        <a class="growim-btn" href="#services">
+        <NuxtLink class="growim-btn" to="/services">
           <span class="growim-btn__text">view all service</span>
           <span class="growim-btn__icon"><i class="flaticon-up-right-arrow"></i></span>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { getServices } = useServices()
+const { data: servicesResponse } = await getServices({ limit: 4 })
+const featuredServices = computed(() => servicesResponse.value?.data || [])
+</script>

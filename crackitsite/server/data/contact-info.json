@@ -1,0 +1,11 @@
+{
+  "address": "Gregory Cartwright, 4059 Carling Avenue, Ugglebarnby",
+  "phone": "+6108-666-0112",
+  "phoneClean": "+61086660112",
+  "email": "info@gmail.com",
+  "openingHours": {
+    "weekdays": "Mon - Sat: 10.00 AM - 4.00 PM",
+    "sunday": "Sun: 09.00 AM - 4.00 PM",
+    "friday": "Friday: Closed"
+  }
+}

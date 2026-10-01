@@ -19,16 +19,16 @@
           }"
           class="team-two__swiper growim-owl__carousel--basic-nav"
         >
-          <SwiperSlide v-for="member in team" :key="member.name">
+          <SwiperSlide v-for="member in team" :key="member.id || member.name">
             <div class="team-card-two">
               <div class="team-card-two__image">
                 <img :src="member.image" :alt="member.name" />
               </div>
               <div class="team-card-two__content">
                 <div class="team-card-two__social">
-                  <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                  <a :href="member.socialLinks?.facebook || 'https://facebook.com'" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                  <a :href="member.socialLinks?.twitter || 'https://twitter.com'" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                  <a :href="member.socialLinks?.linkedin || 'https://www.linkedin.com/'" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <h3 class="team-card-two__title">
                   <a href="#team">{{ member.name }}</a>
@@ -48,10 +48,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation as SwiperNavigation } from 'swiper/modules'
 
-const team = [
-  { name: 'Wade Warren', role: 'Writer', image: '/assets/images/team/team-2-1.jpg' },
-  { name: 'Jacob Jones', role: 'Marketing', image: '/assets/images/team/team-2-2.jpg' },
-  { name: 'Jenny Wilson', role: 'Branding', image: '/assets/images/team/team-2-3.jpg' },
-  { name: 'Robert Fox', role: 'Developer', image: '/assets/images/team/team-2-4.jpg' }
-]
+const { getTeamMembers } = useTeam()
+const { data: teamResponse } = await getTeamMembers()
+const team = computed(() => teamResponse.value?.data || [])
 </script>

@@ -1,0 +1,62 @@
+{
+  "monthly": [
+    {
+      "id": "m1",
+      "title": "Company",
+      "price": "$99",
+      "period": "Par month",
+      "billingCycle": "monthly",
+      "features": [
+        "Branding and design Identity",
+        "Web site Marketing Solutions",
+        "Setup & Onboarding",
+        "24/7 system Monitoring",
+        "Awesome Consulting"
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Agency",
+      "price": "$149",
+      "period": "Par month",
+      "billingCycle": "monthly",
+      "features": [
+        "Branding and design Identity",
+        "Web site Marketing Solutions",
+        "Setup & Onboarding",
+        "24/7 system Monitoring",
+        "Awesome Consulting"
+      ]
+    }
+  ],
+  "yearly": [
+    {
+      "id": "y1",
+      "title": "Company",
+      "price": "$199",
+      "period": "Par year",
+      "billingCycle": "yearly",
+      "features": [
+        "Branding and design Identity",
+        "Web site Marketing Solutions",
+        "Setup & Onboarding",
+        "24/7 system Monitoring",
+        "Awesome Consulting"
+      ]
+    },
+    {
+      "id": "y2",
+      "title": "Agency",
+      "price": "$349",
+      "period": "Par year",
+      "billingCycle": "yearly",
+      "features": [
+        "Branding and design Identity",
+        "Web site Marketing Solutions",
+        "Setup & Onboarding",
+        "24/7 system Monitoring",
+        "Awesome Consulting"
+      ]
+    }
+  ]
+}

@@ -32,292 +32,33 @@
 
                 <div class="row gutter-y-30">
 
-                    <div class="col-lg-4 col-md-6">
-
+                    <div
+                      v-for="service in services"
+                      :key="service.id"
+                      class="col-lg-4 col-md-6"
+                    >
                         <div class="service-six__item text-center">
-
                             <div class="service-six__item__wrapper">
-
                                 <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-1.jpg" alt="growim">
-
+                                    <img :src="service.image" :alt="service.title">
                                 </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-1.png" alt="growim">
-
+                                <div class="service-six__item__icon" :style="{ backgroundImage: `url(${service.iconBg || '/assets/images/shapes/service-6-icon-bg.png'})` }">
+                                    <img :src="service.icon" :alt="service.title">
                                 </div><!-- /.service-icon -->
-
                                 <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Link Building Optimization</a>
-
+                                    <NuxtLink :to="`/services/${service.slug}`">{{ service.title }}</NuxtLink>
                                 </h3><!-- /.service-title -->
-
                                 <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
+                                    {{ service.shortDescription }}
                                 </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
+                                <NuxtLink class="service-six__item__rm" :to="`/services/${service.slug}`">
                                     <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
                                         <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
                                     </svg>
-
                                     <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
+                                </NuxtLink>
                             </div>
-
                         </div><!-- /.service-card-one -->
-
-                    </div><!-- /.item -->
-
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="service-six__item text-center">
-
-                            <div class="service-six__item__wrapper">
-
-                                <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-2.jpg" alt="growim">
-
-                                </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-2.png" alt="growim">
-
-                                </div><!-- /.service-icon -->
-
-                                <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Web Development</a>
-
-                                </h3><!-- /.service-title -->
-
-                                <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
-                                </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
-                                    <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
-                                        <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
-                                    </svg>
-
-                                    <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div><!-- /.service-card-one -->
-
-                    </div><!-- /.item -->
-
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="service-six__item text-center">
-
-                            <div class="service-six__item__wrapper">
-
-                                <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-3.jpg" alt="growim">
-
-                                </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-3.png" alt="growim">
-
-                                </div><!-- /.service-icon -->
-
-                                <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Digital Strategy</a>
-
-                                </h3><!-- /.service-title -->
-
-                                <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
-                                </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
-                                    <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
-                                        <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
-                                    </svg>
-
-                                    <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div><!-- /.service-card-one -->
-
-                    </div><!-- /.item -->
-
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="service-six__item text-center">
-
-                            <div class="service-six__item__wrapper">
-
-                                <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-4.jpg" alt="growim">
-
-                                </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-4.png" alt="growim">
-
-                                </div><!-- /.service-icon -->
-
-                                <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Brand Design Identity</a>
-
-                                </h3><!-- /.service-title -->
-
-                                <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
-                                </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
-                                    <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
-                                        <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
-                                    </svg>
-
-                                    <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div><!-- /.service-card-one -->
-
-                    </div><!-- /.item -->
-
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="service-six__item text-center">
-
-                            <div class="service-six__item__wrapper">
-
-                                <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-5.jpg" alt="growim">
-
-                                </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-5.png" alt="growim">
-
-                                </div><!-- /.service-icon -->
-
-                                <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Email Marketing</a>
-
-                                </h3><!-- /.service-title -->
-
-                                <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
-                                </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
-                                    <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
-                                        <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
-                                    </svg>
-
-                                    <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div><!-- /.service-card-one -->
-
-                    </div><!-- /.item -->
-
-                    <div class="col-lg-4 col-md-6">
-
-                        <div class="service-six__item text-center">
-
-                            <div class="service-six__item__wrapper">
-
-                                <div class="service-six__item__image">
-
-                                    <img src="/assets/images/resources/service-6-6.jpg" alt="growim">
-
-                                </div>
-
-                                <div class="service-six__item__icon" style="background-image: url(assets/images/shapes/service-6-icon-bg.png);">
-
-                                    <img src="/assets/images/shapes/service-6-6.png" alt="growim">
-
-                                </div><!-- /.service-icon -->
-
-                                <h3 class="service-six__item__title">
-
-                                    <a href="/service-details">Video Resches optimization</a>
-
-                                </h3><!-- /.service-title -->
-
-                                <p class="service-six__item__text">
-
-                                    We can help you & routine audits to determine an SEO
-
-                                </p><!-- /.service-text -->
-
-                                <a class="service-six__item__rm" href="/service-details">
-
-                                    <svg viewBox="0 0 58 66" xmlns="http://www.w3.org/2000/svg">
-
-                                        <path d="M25.46 1.07519C27.646 -0.206291 30.354 -0.206292 32.54 1.07519L54.54 13.9717C56.6833 15.2281 58 17.5263 58 20.0106V45.9894C58 48.4737 56.6833 50.7719 54.54 52.0283L32.54 64.9248C30.354 66.2063 27.646 66.2063 25.46 64.9248L3.45996 52.0283C1.31675 50.7719 0 48.4737 0 45.9894V20.0106C0 17.5263 1.31675 15.2281 3.45996 13.9717L25.46 1.07519Z" />
-
-                                    </svg>
-
-                                    <i class="flaticon-up-right-arrow"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div><!-- /.service-card-one -->
-
                     </div><!-- /.item -->
 
                 </div>
@@ -691,7 +432,9 @@
 </template>
 
 <script setup lang="ts">
-// You can extract components later if needed.
+const { getServices } = useServices()
+const { data: servicesData } = await getServices()
+const services = computed(() => servicesData.value?.data || [])
 </script>
 
 <style scoped>

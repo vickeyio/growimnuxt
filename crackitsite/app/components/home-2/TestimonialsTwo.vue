@@ -30,7 +30,7 @@
                 nextEl: '.testimonials-two__nav__next'
               }"
             >
-              <SwiperSlide v-for="(item, index) in testimonials" :key="index">
+              <SwiperSlide v-for="item in testimonials" :key="item.id">
                 <div class="testimonials-two__item">
                   <div class="testimonials-two__item__quote">
                     <img src="/assets/images/shapes/quote-image-2.png" alt="" />
@@ -57,11 +57,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay as SwiperAutoplay, Navigation as SwiperNavigation } from 'swiper/modules'
 
-const quote =
-  'Inceptos euismod aenean vulputate senectus penatibus letius. Nunc neque faucibus egestas molestie cubilia inceptos in facilisi venenatis. Accumsan suspendisse nisi class ut torquent nec felis senectus feugiat.'
-
-const testimonials = [
-  { quote, name: 'Ronald Richards', role: 'Co, Founder', avatar: '/assets/images/resources/testi-1-1.jpg' },
-  { quote, name: 'Ronald Richards', role: 'Co, Founder', avatar: '/assets/images/resources/testi-1-1.jpg' }
-]
+const { getTestimonials } = useTestimonials()
+const { data: testimonialsResponse } = await getTestimonials()
+const testimonials = computed(() => testimonialsResponse.value?.data || [])
 </script>

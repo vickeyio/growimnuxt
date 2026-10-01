@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "slug": "keep-your-business-safe-ensure-high-availability",
+    "title": "Keep Your Business Safe & Ensure High Availability.",
+    "date": {
+      "day": "20",
+      "month": "Dec"
+    },
+    "tag": "Technology",
+    "commentsCount": 0,
+    "image": "/assets/images/blog/blog-2-1-big.png",
+    "isFeatured": true,
+    "author": {
+      "name": "Ralph Edwards",
+      "avatar": "/assets/images/blog/blog-author-1-2.jpg"
+    }
+  },
+  {
+    "id": "2",
+    "slug": "whats-the-holding-back-the-it-solution",
+    "title": "What’s the Holding Back the It Solution",
+    "date": {
+      "day": "20",
+      "month": "Dec"
+    },
+    "tag": "Technology",
+    "commentsCount": 0,
+    "image": "/assets/images/blog/blog-2-1.jpg",
+    "isFeatured": false,
+    "author": {
+      "name": "Ralph Edwards",
+      "avatar": "/assets/images/blog/blog-author-1-2.jpg"
+    }
+  },
+  {
+    "id": "3",
+    "slug": "powerful-server-and-platform",
+    "title": "Powerful Server and Platform",
+    "date": {
+      "day": "20",
+      "month": "Dec"
+    },
+    "tag": "Technology",
+    "commentsCount": 0,
+    "image": "/assets/images/blog/blog-2-2.jpg",
+    "isFeatured": false,
+    "author": {
+      "name": "Ralph Edwards",
+      "avatar": "/assets/images/blog/blog-author-1-2.jpg"
+    }
+  }
+]

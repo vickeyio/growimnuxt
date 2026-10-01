@@ -3,16 +3,30 @@
     <section class="page-header page-header--details">
       <div class="page-header__bg"></div>
       <div class="container">
-        <h2 class="page-header__title">{{ currentService?.title || 'Keyword Research' }}</h2>
+        <h2 class="page-header__title">{{ service?.title || 'Service Details' }}</h2>
         <ul class="growim-breadcrumb list-unstyled">
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><span>Service Details</span></li>
-          <li><span>{{ currentService?.title || 'Keyword Research' }}</span></li>
+          <li><NuxtLink to="/services">Our Services</NuxtLink></li>
+          <li><span>{{ service?.title || 'Service Details' }}</span></li>
         </ul>
       </div>
     </section>
 
-    <section class="service-details">
+    <div v-if="status === 'pending'" class="text-center py-5">
+      <div class="spinner-border" role="status"></div>
+    </div>
+
+    <div v-else-if="error || !service" class="container py-5 text-center">
+      <div class="alert alert-warning">
+        <h4>Service Not Found</h4>
+        <p>The requested service could not be found.</p>
+        <NuxtLink to="/services" class="growim-btn mt-3">
+          <span class="growim-btn__text">Back to Services</span>
+        </NuxtLink>
+      </div>
+    </div>
+
+    <section v-else class="service-details">
       <div class="container">
         <div class="row gutter-y-60">
           <div class="col-md-12 col-lg-4">
@@ -23,7 +37,7 @@
                   <li
                     v-for="item in allServices"
                     :key="item.id"
-                    :class="{ current: item.slug === currentService?.slug }"
+                    :class="{ current: item.slug === service.slug }"
                   >
                     <NuxtLink :to="`/services/${item.slug}`">{{ item.title }}</NuxtLink>
                   </li>
@@ -58,23 +72,23 @@
           </div>
 
           <div class="col-md-12 col-lg-8">
-            <div v-if="currentService" class="service-details__content">
+            <div class="service-details__content">
               <div class="service-details__thumbnail">
-                <img :src="currentService.thumbnailImage || currentService.image" :alt="currentService.title" />
+                <img :src="service.thumbnailImage || service.image" :alt="service.title" />
               </div>
 
-              <h3 class="service-details__title">Digital Marketing</h3>
-              <p class="service-details__text">{{ currentService.fullDescription }}</p>
-              <p v-if="currentService.fullDescriptionSecondary" class="service-details__text">
-                {{ currentService.fullDescriptionSecondary }}
+              <h3 class="service-details__title">{{ service.title }}</h3>
+              <p class="service-details__text">{{ service.fullDescription }}</p>
+              <p v-if="service.fullDescriptionSecondary" class="service-details__text">
+                {{ service.fullDescriptionSecondary }}
               </p>
 
               <h3 class="service-details__title">What We Provide</h3>
-              <p class="service-details__text">{{ currentService.fullDescription }}</p>
+              <p class="service-details__text">{{ service.fullDescription }}</p>
 
-              <div v-if="currentService.whatWeProvide?.length" class="row mb gutter-y-30">
+              <div v-if="service.whatWeProvide?.length" class="row mb gutter-y-30">
                 <div
-                  v-for="(provideItem, idx) in currentService.whatWeProvide"
+                  v-for="(provideItem, idx) in service.whatWeProvide"
                   :key="idx"
                   class="col-md-6"
                 >
@@ -89,18 +103,18 @@
               </div>
 
               <h3 class="service-details__title">The Challange</h3>
-              <p class="service-details__text">{{ currentService.challengeText || currentService.fullDescription }}</p>
+              <p class="service-details__text">{{ service.challengeText || service.fullDescription }}</p>
 
-              <ul v-if="currentService.challengeBullets?.length" class="service-details__list">
-                <li v-for="(bullet, bIdx) in currentService.challengeBullets" :key="bIdx">
+              <ul v-if="service.challengeBullets?.length" class="service-details__list">
+                <li v-for="(bullet, bIdx) in service.challengeBullets" :key="bIdx">
                   <i class="flaticon-check-two"></i>
                   {{ bullet }}
                 </li>
               </ul>
 
-              <div v-if="currentService.faqs?.length" class="faq-one__accordion growim-accrodion">
+              <div v-if="service.faqs?.length" class="faq-one__accordion growim-accrodion">
                 <div
-                  v-for="(faq, fIdx) in currentService.faqs"
+                  v-for="(faq, fIdx) in service.faqs"
                   :key="fIdx"
                   class="accrodion"
                   :class="{ active: activeFaqIndex === fIdx }"
@@ -156,12 +170,15 @@
 </template>
 
 <script setup lang="ts">
-const { getServices, getServiceBySlug } = useServices()
-const { data: allServicesResponse } = await getServices()
-const allServices = computed(() => allServicesResponse.value?.data || [])
+const route = useRoute()
+const slug = computed(() => (route.params.slug as string) || 'link-building-optimization')
 
-const { data: defaultServiceResponse } = await getServiceBySlug('link-building-optimization')
-const currentService = computed(() => defaultServiceResponse.value?.data || allServices.value[0])
+const { getServiceBySlug, getServices } = useServices()
+const { data: serviceResponse, status, error } = await getServiceBySlug(slug)
+const { data: allServicesResponse } = await getServices()
+
+const service = computed(() => serviceResponse.value?.data)
+const allServices = computed(() => allServicesResponse.value?.data || [])
 
 const activeFaqIndex = ref(1)
 const toggleFaq = (index: number) => {

@@ -89,7 +89,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref, computed } from 'vue'
 import UiModalVideo from '~/components/ui/ModalVideo.vue'
 
 const isVideoOpen = ref(false)
@@ -98,29 +98,15 @@ const currentIndex = ref(0)
 const isTransitioning = ref(false)
 let timer: ReturnType<typeof setInterval> | undefined
 
+const pad = (num: number) => String(num).padStart(2, '0')
+
 const openVideo = () => {
   isVideoOpen.value = true
 }
 
-const pad = (num: number) => String(num).padStart(2, '0')
-
-const slides = [
-  {
-    bg: '/assets/images/backgrounds/slider-2-1.jpg',
-    title: '<span>Digital</span> <br>Marketing <br>Expert',
-    text: 'There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised'
-  },
-  {
-    bg: '/assets/images/backgrounds/slider-2-1.jpg',
-    title: '<span>Digital</span> <br>Marketing <br>Expert',
-    text: 'There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised'
-  },
-  {
-    bg: '/assets/images/backgrounds/slider-2-1.jpg',
-    title: '<span>Digital</span> <br>Marketing <br>Expert',
-    text: 'There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised'
-  }
-]
+const { getSlides } = useHeroSlides()
+const { data: slidesResponse } = await getSlides()
+const slides = computed(() => slidesResponse.value?.data || [])
 
 /**
  * Inline style to stack slides on top of each other (like Owl Carousel fadeIn/fadeOut).

@@ -3,16 +3,30 @@
     <section class="page-header page-header--details">
       <div class="page-header__bg"></div>
       <div class="container">
-        <h2 class="page-header__title">{{ item?.title || 'Generation Of Wealth' }}</h2>
+        <h2 class="page-header__title">{{ item?.title || 'Portfolio Details' }}</h2>
         <ul class="growim-breadcrumb list-unstyled">
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><span>Portfolio Details</span></li>
-          <li><span>{{ item?.title || 'Generation Of Wealth' }}</span></li>
+          <li><NuxtLink to="/portfolio">Our Portfolio</NuxtLink></li>
+          <li><span>{{ item?.title || 'Portfolio Details' }}</span></li>
         </ul>
       </div>
     </section>
 
-    <section v-if="item" class="portfolio-details">
+    <div v-if="status === 'pending'" class="text-center py-5">
+      <div class="spinner-border" role="status"></div>
+    </div>
+
+    <div v-else-if="error || !item" class="container py-5 text-center">
+      <div class="alert alert-warning">
+        <h4>Portfolio Item Not Found</h4>
+        <p>The requested portfolio project could not be found.</p>
+        <NuxtLink to="/portfolio" class="growim-btn mt-3">
+          <span class="growim-btn__text">Back to Portfolio</span>
+        </NuxtLink>
+      </div>
+    </div>
+
+    <section v-else class="portfolio-details">
       <div class="container">
         <div class="portfolio-details__image">
           <img :src="item.detailImage || item.image" :alt="item.title" />
@@ -147,8 +161,11 @@
 </template>
 
 <script setup lang="ts">
+const route = useRoute()
+const slug = computed(() => (route.params.slug as string) || 'generation-of-wealth-1')
+
 const { getPortfolioItemBySlug } = usePortfolio()
-const { data: itemResponse } = await getPortfolioItemBySlug('generation-of-wealth-1')
+const { data: itemResponse, status, error } = await getPortfolioItemBySlug(slug)
 const item = computed(() => itemResponse.value?.data)
 </script>
 

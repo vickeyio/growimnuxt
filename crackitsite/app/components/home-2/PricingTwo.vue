@@ -27,14 +27,14 @@
         <div class="col-xl-8">
           <div v-show="!isYearly">
             <div class="row gutter-y-30">
-              <div v-for="plan in monthlyPlans" :key="plan.title" class="col-md-6 col-lg-6">
+              <div v-for="plan in monthlyPlans" :key="plan.id || plan.title" class="col-md-6 col-lg-6">
                 <Home2PricingCard :plan="plan" />
               </div>
             </div>
           </div>
           <div v-show="isYearly">
             <div class="row gutter-y-30">
-              <div v-for="plan in yearlyPlans" :key="plan.title" class="col-md-6 col-lg-6">
+              <div v-for="plan in yearlyPlans" :key="plan.id || plan.title" class="col-md-6 col-lg-6">
                 <Home2PricingCard :plan="plan" />
               </div>
             </div>
@@ -46,26 +46,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import Home2PricingCard from '~/components/home-2/PricingCard.vue'
 
 const isYearly = ref(false)
 
-const features = [
-  'Branding and design Identity',
-  'Web site Marketing Solutions',
-  'Setup & Onboarding',
-  '24/7 system Monitoring',
-  'Awesome Consulting'
-]
+const { getPricing } = usePricing()
+const { data: pricingResponse } = await getPricing()
 
-const monthlyPlans = [
-  { title: 'Company', price: '$99', period: 'Par month', features },
-  { title: 'Agency', price: '$149', period: 'Par month', features }
-]
-
-const yearlyPlans = [
-  { title: 'Company', price: '$199', period: 'Par year', features },
-  { title: 'Agency', price: '$349', period: 'Par year', features }
-]
+const monthlyPlans = computed(() => pricingResponse.value?.data?.monthly || [])
+const yearlyPlans = computed(() => pricingResponse.value?.data?.yearly || [])
 </script>

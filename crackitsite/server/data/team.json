@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "Wade Warren",
+    "role": "Writer",
+    "image": "/assets/images/team/team-2-1.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Jacob Jones",
+    "role": "Marketing",
+    "image": "/assets/images/team/team-2-2.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Jenny Wilson",
+    "role": "Branding",
+    "image": "/assets/images/team/team-2-3.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Robert Fox",
+    "role": "Developer",
+    "image": "/assets/images/team/team-2-4.jpg",
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  }
+]
