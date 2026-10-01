@@ -23,11 +23,11 @@
             <div class="footer-widget">
               <h2 class="footer-widget__title">Quick Link</h2>
               <ul class="list-unstyled footer-widget__links">
-                <li><a href="#about">Growim About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><NuxtLink to="/about">Growim About</NuxtLink></li>
+                <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
                 <li><a href="#blog">Blog & News</a></li>
                 <li><a href="#pricing">FAQ’S</a></li>
-                <li><a href="#contact">Login / Register</a></li>
+                <li><NuxtLink to="/contact">Login / Register</NuxtLink></li>
               </ul>
             </div>
           </div>
@@ -35,11 +35,11 @@
             <div class="footer-widget footer-widget--links">
               <h2 class="footer-widget__title">our services</h2>
               <ul class="list-unstyled footer-widget__links">
-                <li><a href="#services">digital marketing</a></li>
-                <li><a href="#services">web development</a></li>
-                <li><a href="#services">SEO optimized</a></li>
-                <li><a href="#services">App Development</a></li>
-                <li><a href="#services">Email Marketing</a></li>
+                <li><NuxtLink to="/services">digital marketing</NuxtLink></li>
+                <li><NuxtLink to="/services">web development</NuxtLink></li>
+                <li><NuxtLink to="/services">SEO optimized</NuxtLink></li>
+                <li><NuxtLink to="/services">App Development</NuxtLink></li>
+                <li><NuxtLink to="/services">Email Marketing</NuxtLink></li>
               </ul>
             </div>
           </div>
@@ -65,8 +65,8 @@
             &copy; Copyright {{ year }} by Crackit.
           </p>
           <ul class="main-footer-two__bottom__menu">
-            <li><a href="#contact">Terms & Conditions</a></li>
-            <li><a href="#contact">Privacy Policy</a></li>
+            <li><NuxtLink to="/contact">Terms & Conditions</NuxtLink></li>
+            <li><NuxtLink to="/contact">Privacy Policy</NuxtLink></li>
           </ul>
         </div>
       </div>

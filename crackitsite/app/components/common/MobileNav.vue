@@ -13,12 +13,12 @@
       <div class="mobile-nav__container">
         <ul class="main-menu__list">
           <li><NuxtLink to="/" @click="closeMobileNav">Home</NuxtLink></li>
-          <li><a href="#about" @click="closeMobileNav">About</a></li>
-          <li><a href="#services" @click="closeMobileNav">Services</a></li>
-          <li><a href="#portfolio" @click="closeMobileNav">Portfolio</a></li>
+          <li><NuxtLink to="/about" @click="closeMobileNav">About</NuxtLink></li>
+          <li><NuxtLink to="/services" @click="closeMobileNav">Services</NuxtLink></li>
+          <li><NuxtLink to="/portfolio" @click="closeMobileNav">Portfolio</NuxtLink></li>
           <li><a href="#team" @click="closeMobileNav">Team</a></li>
           <li><a href="#blog" @click="closeMobileNav">News</a></li>
-          <li><a href="#contact" @click="closeMobileNav">Contact</a></li>
+          <li><NuxtLink to="/contact" @click="closeMobileNav">Contact</NuxtLink></li>
         </ul>
       </div>
       <ul class="mobile-nav__contact list-unstyled">
