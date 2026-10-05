@@ -50,12 +50,12 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="why-choose-two__image__one">
-                  <img src="/assets/images/resources/why-choose-2-1.jpg" alt="crackit" />
+                  <img src="/assets/images/resources/whysus.jpeg" alt="crackit" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="why-choose-two__image__two">
-                  <img src="/assets/images/resources/why-choose-2-2.jpg" alt="crackit" />
+                  <img src="/assets/images/resources/whysus2.jpeg" alt="crackit" />
                 </div>
               </div>
             </div>

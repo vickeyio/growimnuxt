@@ -5,7 +5,7 @@
     <div class="container">
       <div class="sec-title text-center">
         <h6 class="sec-title__tagline">our complete projects</h6>
-        <h3 class="sec-title__title">Digital Agency<br> <span>Complete</span> Projects</h3>
+        <h3 class="sec-title__title">Tech Solutions<br> <span>Complete</span> Projects</h3>
       </div>
     </div>
     <ClientOnly>
