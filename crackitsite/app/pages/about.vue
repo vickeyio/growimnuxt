@@ -44,7 +44,7 @@
 
 
 
-                                <h3 class="sec-title__title">We’re Strategic Digital Marketing Agency</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title">We’re Strategic Digital Agency</h3><!-- /.sec-title__title -->
 
                             </div><!-- /.sec-title -->
 
@@ -66,7 +66,7 @@
 
                                         <h3 class="about-one__list__number">94%</h3>
 
-                                        <p class="about-one__list__text">Sms Marketing</p>
+                                        <p class="about-one__list__text">SMS Services</p>
 
                                     </div>
 
@@ -80,7 +80,7 @@
 
                                         <h3 class="about-one__list__number">65%</h3>
 
-                                        <p class="about-one__list__text">Cover Marketing</p>
+                                        <p class="about-one__list__text">Digital Solutions</p>
 
                                     </div>
 
@@ -433,7 +433,7 @@
 
                                 </h3><!-- /.team-card-four__title -->
 
-                                <p class="team-card-four__designation">Marketing</p><!-- /.team-card-four__designation -->
+                                <p class="team-card-four__designation">Design</p><!-- /.team-card-four__designation -->
 
                                 <div class="team-card-four__social">
 

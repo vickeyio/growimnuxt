@@ -2479,7 +2479,7 @@ h6 {
   flex-shrink: 0;
 }
 .blog-two__top .growim-btn__text {
-  background-color: rgba(242, 107, 1, 0.1);
+  background-color: rgba(99, 90, 217, 0.1);
   color: var(--growim-primary, #635AD9);
 }
 .blog-two__top .growim-btn__text::after {
@@ -2489,7 +2489,7 @@ h6 {
   background-color: var(--growim-primary, #635AD9);
 }
 .blog-two__top .growim-btn__icon::after {
-  background-color: rgba(242, 107, 1, 0.1);
+  background-color: rgba(99, 90, 217, 0.1);
 }
 .blog-two__top .growim-btn:hover .growim-btn__icon {
   color: var(--growim-white, #fff);
@@ -2535,7 +2535,7 @@ h6 {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(242, 107, 1) 100%);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(99, 90, 217) 100%);
 }
 .blog-card-two:hover .blog-card-two__image img:nth-child(1) {
   transform: translatex(0) scalex(1);
@@ -4713,7 +4713,7 @@ h6 {
 }
 .main-header--two.sticky-header--cloned {
   border: none;
-  background-image: linear-gradient(90deg, #fff5ee 0%, #fff4ec 100%);
+  background-image: linear-gradient(90deg, #f0f7ff 0%, #e6f0fa 100%);
   box-shadow: 0px 3px 18px rgba(var(--growim-black-rgb, 23, 1, 44), 0.07);
 }
 .main-header--two.sticky-header--cloned .main-header__logo img:nth-child(1) {
@@ -4731,7 +4731,7 @@ h6 {
 .main-header--two .main-header__inner {
   position: relative;
   border-radius: 10px;
-  background-image: linear-gradient(90deg, #fff5ee 0%, #fff4ec 100%);
+  background-image: linear-gradient(90deg, #f0f7ff 0%, #e6f0fa 100%);
   padding: 0 20px 0 22px;
 }
 @media (max-width: 1199px) {
@@ -5664,7 +5664,7 @@ body.megamenu-popup-active .mobile-nav__content {
   flex-shrink: 0;
 }
 .why-choose-two__content .growim-btn__text {
-  background-color: rgba(242, 107, 1, 0.15);
+  background-color: rgba(99, 90, 217, 0.15);
   color: var(--growim-primary, #635AD9);
 }
 .why-choose-two__content .growim-btn__text::after {
@@ -5674,7 +5674,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: var(--growim-primary, #635AD9);
 }
 .why-choose-two__content .growim-btn__icon::after {
-  background-color: rgba(242, 107, 1, 0.15);
+  background-color: rgba(99, 90, 217, 0.15);
 }
 .why-choose-two__content .growim-btn:hover .growim-btn__icon {
   color: var(--growim-white, #fff);
@@ -5757,7 +5757,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: calc(100% + 22px);
   height: calc(100% + 38px);
   content: "";
-  background-color: #FEF5ED;
+  background-color: #F0F7FF;
   border-radius: 135px;
   z-index: -1;
 }
@@ -5784,7 +5784,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: calc(100% + 22px);
   height: calc(100% + 38px);
   content: "";
-  background-color: #FEF5ED;
+  background-color: #F0F7FF;
   border-radius: 135px;
   z-index: -1;
 }
@@ -11075,7 +11075,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   border-radius: 43px;
   transition: 0.4s;
-  background-color: rgba(242, 107, 1, 0.1);
+  background-color: rgba(99, 90, 217, 0.1);
 }
 .package-two__tabs li .switch .slider::before {
   position: absolute;
@@ -15569,7 +15569,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
 }
 .about-two__content .growim-btn__text {
-  background-color: rgba(242, 107, 1, 0.1);
+  background-color: rgba(99, 90, 217, 0.1);
   color: var(--growim-primary, #635AD9);
 }
 .about-two__content .growim-btn__text::after {
@@ -15579,7 +15579,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: var(--growim-primary, #635AD9);
 }
 .about-two__content .growim-btn__icon::after {
-  background-color: rgba(242, 107, 1, 0.1);
+  background-color: rgba(99, 90, 217, 0.1);
 }
 .about-two__content .growim-btn:hover .growim-btn__icon {
   color: var(--growim-white, #fff);
@@ -16457,7 +16457,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .service-two {
   padding: 120px 0;
-  background-color: rgba(242, 107, 1, 0.07);
+  background-color: rgba(99, 90, 217, 0.07);
   overflow: hidden;
   position: relative;
   counter-reset: count;

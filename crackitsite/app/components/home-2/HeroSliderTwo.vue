@@ -141,8 +141,8 @@ const stopAutoplay = () => {
 }
 
 const goTo = (next: number) => {
-  if (isTransitioning.value) return
-  const wrapped = (next + slides.length) % slides.length
+  if (isTransitioning.value || slides.value.length === 0) return
+  const wrapped = (next + slides.value.length) % slides.value.length
   if (wrapped === currentIndex.value) return
 
   isTransitioning.value = true
@@ -196,5 +196,10 @@ onUnmounted(() => {
   z-index: 3;
 }
 
+/* Tint orange shapes to blue to match tech startup theme */
+.main-slider-two__shape-one,
+.main-slider-two__shape-two {
+  filter: hue-rotate(190deg) saturate(1.2);
+}
 
 </style>

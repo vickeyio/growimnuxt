@@ -21,7 +21,7 @@
                 </div>
                 <div class="why-choose-two__list__content">
                   <h3 class="why-choose-two__list__number">94%</h3>
-                  <p class="why-choose-two__list__text">Sms Marketing</p>
+                  <p class="why-choose-two__list__text">SMS Services</p>
                 </div>
               </li>
               <li>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="why-choose-two__list__content">
                   <h3 class="why-choose-two__list__number">65%</h3>
-                  <p class="why-choose-two__list__text">Cover Marketing</p>
+                  <p class="why-choose-two__list__text">Digital Solutions</p>
                 </div>
               </li>
             </ul>
@@ -65,3 +65,14 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Tint orange/yellow shapes to blue to match tech startup theme */
+.why-choose-two__shape-one,
+.why-choose-two__shape-two,
+.why-choose-two__image__shape-three,
+.why-choose-two__image__shape-four,
+.why-choose-two__image__circle {
+  filter: hue-rotate(190deg) saturate(1.2);
+}
+</style>

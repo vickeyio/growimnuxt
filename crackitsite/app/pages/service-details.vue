@@ -63,7 +63,7 @@
                 <img :src="currentService.thumbnailImage || currentService.image" :alt="currentService.title" />
               </div>
 
-              <h3 class="service-details__title">Digital Marketing</h3>
+              <h3 class="service-details__title">Digital Services</h3>
               <p class="service-details__text">{{ currentService.fullDescription }}</p>
               <p v-if="currentService.fullDescriptionSecondary" class="service-details__text">
                 {{ currentService.fullDescriptionSecondary }}

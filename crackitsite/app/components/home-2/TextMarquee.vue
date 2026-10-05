@@ -5,15 +5,15 @@
         <li>BRANDING</li>
         <li>MARKETING</li>
         <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
+        <li>Digital Agency</li>
         <li>BRANDING</li>
         <li>MARKETING</li>
         <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
+        <li>Digital Agency</li>
         <li>BRANDING</li>
         <li>MARKETING</li>
         <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
+        <li>Digital Agency</li>
       </ul>
     </div>
   </section>

@@ -27,7 +27,7 @@
           <div class="about-two__content">
             <div class="sec-title text-left">
               <h6 class="sec-title__tagline">About Us</h6>
-              <h3 class="sec-title__title">We’re Strategic Digital <span>Marketing</span> Agency</h3>
+              <h3 class="sec-title__title">We’re Strategic Digital <span>Agency</span></h3>
             </div>
             <p class="about-two__content__text">
               In order to scale new customer acquisition and retention for e-commerce brands, we work across
@@ -36,7 +36,7 @@
             <ul class="about-two__list">
               <li>
                 <h3 class="about-two__list__number">200+</h3>
-                <p class="about-two__list__text">Successful marketing<br> campaigns</p>
+                <p class="about-two__list__text">Successful<br> campaigns</p>
               </li>
               <li>
                 <h3 class="about-two__list__number">75%</h3>
@@ -91,3 +91,14 @@ onUnmounted(() => {
   }
 })
 </script>
+
+<style scoped>
+/* Tint orange/yellow shapes to blue to match tech startup theme */
+.about-two__shape-one,
+.about-two__shape-two,
+.about-two__shape-three,
+.about-two__image-wrapper__shape-one,
+.about-two__image-wrapper__shape-two {
+  filter: hue-rotate(190deg) saturate(1.2);
+}
+</style>

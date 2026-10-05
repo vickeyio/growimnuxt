@@ -35,7 +35,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="portfolio-details__content">
-              <h3 class="portfolio-details__title">Digital Marketing Agency</h3>
+              <h3 class="portfolio-details__title">Digital Agency</h3>
               <p class="portfolio-details__text">{{ item.overview }}</p>
               <p v-if="item.overviewSecondary" class="portfolio-details__text">
                 {{ item.overviewSecondary }}

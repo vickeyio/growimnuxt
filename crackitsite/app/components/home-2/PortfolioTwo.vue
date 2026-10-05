@@ -53,3 +53,11 @@ const { getPortfolioItems } = usePortfolio()
 const { data: response } = await getPortfolioItems()
 const items = computed(() => response.value?.data || [])
 </script>
+
+<style scoped>
+/* Tint orange/yellow background shapes to blue to match tech startup theme */
+.portfolio-two__bg,
+.portfolio-two__shape-one {
+  filter: hue-rotate(190deg) saturate(1.2);
+}
+</style>

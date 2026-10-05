@@ -1,5 +1,6 @@
 <template>
-  <footer class="main-footer-two" style="background-image: url(/assets/images/shapes/footer-bg-2-1.png);">
+  <footer class="main-footer-two">
+    <div class="main-footer-two__image-bg" style="background-image: url(/assets/images/shapes/footer-bg-2-1.png);"></div>
     <div class="main-footer-two__bg"></div>
     <div class="main-footer-two__shape" style="background-image: url(/assets/images/shapes/footer-2-shape-1.png);"></div>
     <div class="main-footer-two__top">
@@ -35,11 +36,11 @@
             <div class="footer-widget footer-widget--links">
               <h2 class="footer-widget__title">our services</h2>
               <ul class="list-unstyled footer-widget__links">
-                <li><NuxtLink to="/services">digital marketing</NuxtLink></li>
+                <li><NuxtLink to="/services">digital services</NuxtLink></li>
                 <li><NuxtLink to="/services">web development</NuxtLink></li>
                 <li><NuxtLink to="/services">SEO optimized</NuxtLink></li>
                 <li><NuxtLink to="/services">App Development</NuxtLink></li>
-                <li><NuxtLink to="/services">Email Marketing</NuxtLink></li>
+                <li><NuxtLink to="/services">Email Services</NuxtLink></li>
               </ul>
             </div>
           </div>
@@ -80,3 +81,23 @@ import { ref } from 'vue'
 const email = ref('')
 const year = new Date().getFullYear()
 </script>
+
+<style scoped>
+/* Tint orange/yellow background shapes to blue to match tech startup theme */
+.main-footer-two__image-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+  filter: hue-rotate(190deg) saturate(1.2);
+}
+
+.main-footer-two__shape {
+  filter: hue-rotate(190deg) saturate(1.2);
+}
+</style>

@@ -6,8 +6,6 @@
     <Home2WhyChooseTwo />
     <Home2PortfolioTwo />
     <Home2PricingTwo />
-    <Home2CtaOne />
-    <Home2TeamTwo />
     <Home2TestimonialsTwo />
     <Home2BlogTwo />
     <Home2ClientCarousel />
@@ -18,12 +16,12 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Home Two || Crackit || Creative Digital Marketing Agency',
+  title: 'Home Two || Crackit || Creative Digital Agency',
   meta: [
     {
       name: 'description',
       content:
-        'Crackit Home Two — digital marketing, branding, SEO, and web development converted from the Growim HTML template.'
+        'Crackit Home Two — digital solutions, branding, SEO, and web development converted from the Growim HTML template.'
     }
   ]
 })
