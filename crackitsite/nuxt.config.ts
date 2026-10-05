@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Home Two || Crackit || Creative Digital Marketing Agency',
+      title: 'Crackit || Premium Tech Startup in Mombasa',
       htmlAttrs: { lang: 'en' },
       meta: [
         { charset: 'utf-8' },
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Crackit is a creative digital marketing, SEO, and web agency converted from the Growim Home Two HTML template.'
+            'Crackit is a Mombasa-based technology startup specializing in custom software, mobile apps, and digital transformation.'
         }
       ],
       link: [

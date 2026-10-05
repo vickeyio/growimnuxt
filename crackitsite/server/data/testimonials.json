@@ -1,18 +1,18 @@
 [
   {
     "id": "1",
-    "name": "Ronald Richards",
-    "role": "Co, Founder",
+    "name": "Ahmed Salim",
+    "role": "CEO, Pwani Logistics",
     "avatar": "/assets/images/resources/testi-1-1.jpg",
-    "quote": "Inceptos euismod aenean vulputate senectus penatibus letius. Nunc neque faucibus egestas molestie cubilia inceptos in facilisi venenatis. Accumsan suspendisse nisi class ut torquent nec felis senectus feugiat.",
+    "quote": "Crackit completely transformed our fleet tracking system. Their software solution was robust, scalable, and tailored perfectly to our needs in the Mombasa port.",
     "rating": 5
   },
   {
     "id": "2",
-    "name": "Ronald Richards",
-    "role": "Co, Founder",
+    "name": "Jane Kamau",
+    "role": "Founder, E-Pwani",
     "avatar": "/assets/images/resources/testi-1-1.jpg",
-    "quote": "Sed ante elit, fringilla vitae laoreet sit amet, tempus et libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget quam quis turpis lacinia euismod cursus in arcu. Integer a purus dolor. Pellentesque finibus ut erat in sagittis. Sed semper dignissim",
+    "quote": "Working with Crackit was the best decision for our e-commerce platform. Their UI/UX team delivered an app that our coastal customers love. Fast, efficient, and professional.",
     "rating": 5
   }
 ]

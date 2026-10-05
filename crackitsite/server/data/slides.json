@@ -2,22 +2,22 @@
   {
     "id": "1",
     "bg": "/assets/images/backgrounds/slider-2-1.jpg",
-    "title": "<span>Digital</span> <br>Marketing <br>Expert",
-    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "title": "<span>Next-Gen</span> <br>Software <br>Solutions",
+    "text": "Empowering East Africa with custom software development,<br> cloud architecture, and modern mobile applications.",
     "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
   },
   {
     "id": "2",
     "bg": "/assets/images/backgrounds/slider-2-1.jpg",
-    "title": "<span>Digital</span> <br>Marketing <br>Expert",
-    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "title": "<span>Digital</span> <br>Transformation <br>Experts",
+    "text": "We build scalable, reliable software tailored to your business needs.<br> Innovating from Mombasa to the world.",
     "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
   },
   {
     "id": "3",
     "bg": "/assets/images/backgrounds/slider-2-1.jpg",
-    "title": "<span>Digital</span> <br>Marketing <br>Expert",
-    "text": "There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour, or randomised",
+    "title": "<span>Mobile</span> <br>& Web <br>Excellence",
+    "text": "Crafting intuitive and beautiful user interfaces.<br> Engaging your customers with lightning-fast applications.",
     "videoUrl": "https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1"
   }
 ]

@@ -1,14 +1,14 @@
 :root {
-  --growim-base: #F29F5C;
-  --growim-base-rgb: toRGB(#F29F5C);
-  --growim-secondary: #6461FC;
-  --growim-secondary-rgb: toRGB(#6461FC);
-  --growim-primary: #F26B01;
-  --growim-primary-rgb: toRGB(#F26B01);
+  --growim-base: #2563EB;
+  --growim-base-rgb: toRGB(#2563EB);
+  --growim-secondary: #4F46E5;
+  --growim-secondary-rgb: toRGB(#4F46E5);
+  --growim-primary: #1E40AF;
+  --growim-primary-rgb: toRGB(#1E40AF);
 }
 
 .sec-title__tagline {
-  background: linear-gradient(90deg, var(--growim-base, #F29F5C) 0%, var(--growim-secondary, #6461FC) 100%);
+  background: linear-gradient(90deg, var(--growim-base, #2563EB) 0%, var(--growim-secondary, #4F46E5) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

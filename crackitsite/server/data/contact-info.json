@@ -1,11 +1,11 @@
 {
-  "address": "Gregory Cartwright, 4059 Carling Avenue, Ugglebarnby",
-  "phone": "+6108-666-0112",
-  "phoneClean": "+61086660112",
-  "email": "info@gmail.com",
+  "address": "Moi Avenue, Mombasa, Kenya",
+  "phone": "+254-700-000-000",
+  "phoneClean": "+254700000000",
+  "email": "hello@crackit.co.ke",
   "openingHours": {
-    "weekdays": "Mon - Sat: 10.00 AM - 4.00 PM",
-    "sunday": "Sun: 09.00 AM - 4.00 PM",
-    "friday": "Friday: Closed"
+    "weekdays": "Mon - Fri: 8.00 AM - 5.00 PM",
+    "sunday": "Sun: Closed",
+    "friday": "Sat: 9.00 AM - 1.00 PM"
   }
 }

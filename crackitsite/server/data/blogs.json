@@ -1,52 +1,52 @@
 [
   {
     "id": "1",
-    "slug": "keep-your-business-safe-ensure-high-availability",
-    "title": "Keep Your Business Safe & Ensure High Availability.",
+    "slug": "why-mombasa-is-the-next-tech-hub",
+    "title": "Why Mombasa is Becoming East Africa's Next Tech Hub",
     "date": {
       "day": "20",
-      "month": "Dec"
+      "month": "Oct"
     },
     "tag": "Technology",
-    "commentsCount": 0,
+    "commentsCount": 5,
     "image": "/assets/images/blog/blog-2-1-big.png",
     "isFeatured": true,
     "author": {
-      "name": "Ralph Edwards",
+      "name": "Khamis Ali",
       "avatar": "/assets/images/blog/blog-author-1-2.jpg"
     }
   },
   {
     "id": "2",
-    "slug": "whats-the-holding-back-the-it-solution",
-    "title": "What’s the Holding Back the It Solution",
+    "slug": "the-importance-of-cloud-migration",
+    "title": "The Importance of Cloud Migration for Local Businesses",
     "date": {
-      "day": "20",
-      "month": "Dec"
+      "day": "15",
+      "month": "Oct"
     },
-    "tag": "Technology",
-    "commentsCount": 0,
+    "tag": "Cloud",
+    "commentsCount": 2,
     "image": "/assets/images/blog/blog-2-1.jpg",
     "isFeatured": false,
     "author": {
-      "name": "Ralph Edwards",
+      "name": "Grace Wanjiku",
       "avatar": "/assets/images/blog/blog-author-1-2.jpg"
     }
   },
   {
     "id": "3",
-    "slug": "powerful-server-and-platform",
-    "title": "Powerful Server and Platform",
+    "slug": "vuejs-vs-react-what-we-use",
+    "title": "Vue.js vs React: What We Use at Crackit",
     "date": {
-      "day": "20",
-      "month": "Dec"
+      "day": "05",
+      "month": "Oct"
     },
-    "tag": "Technology",
-    "commentsCount": 0,
+    "tag": "Development",
+    "commentsCount": 8,
     "image": "/assets/images/blog/blog-2-2.jpg",
     "isFeatured": false,
     "author": {
-      "name": "Ralph Edwards",
+      "name": "Khamis Ali",
       "avatar": "/assets/images/blog/blog-author-1-2.jpg"
     }
   }

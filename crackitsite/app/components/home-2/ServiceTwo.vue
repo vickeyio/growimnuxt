@@ -4,18 +4,18 @@
     <h5 class="service-two__title">SERVICES</h5>
     <div class="service-two__slide-text">
       <ul class="service-two__slide-text__list list-unstyled">
-        <li>BRANDING</li>
-        <li>MARKETING</li>
-        <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
-        <li>BRANDING</li>
-        <li>MARKETING</li>
-        <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
-        <li>BRANDING</li>
-        <li>MARKETING</li>
-        <li>DEVELOPMENT</li>
-        <li>Marketing Agency</li>
+        <li>SOFTWARE DEVELOPMENT</li>
+        <li>MOBILE APPS</li>
+        <li>CLOUD & DEVOPS</li>
+        <li>IT CONSULTING</li>
+        <li>SOFTWARE DEVELOPMENT</li>
+        <li>MOBILE APPS</li>
+        <li>CLOUD & DEVOPS</li>
+        <li>IT CONSULTING</li>
+        <li>SOFTWARE DEVELOPMENT</li>
+        <li>MOBILE APPS</li>
+        <li>CLOUD & DEVOPS</li>
+        <li>IT CONSULTING</li>
       </ul>
     </div>
     <div class="container">
@@ -56,7 +56,7 @@
           <img src="/assets/images/resources/client-1-2.png" alt="crackit" />
           <img src="/assets/images/resources/client-1-3.png" alt="crackit" />
           <img src="/assets/images/resources/client-1-4.png" alt="crackit" />
-          <span>1.5k Happy Clients</span>
+          <span>Trusted by Coastal Businesses</span>
         </div>
         <NuxtLink class="growim-btn" to="/services">
           <span class="growim-btn__text">view all service</span>

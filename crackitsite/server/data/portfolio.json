@@ -1,164 +1,164 @@
 [
   {
     "id": "1",
-    "slug": "generation-of-wealth-1",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "pwani-logistics-fleet-management",
+    "title": "Pwani Logistics Fleet Management",
+    "category": "Software Development",
     "image": "/assets/images/portfolio/portfolio-6-1.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-1.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
+    "client": "Pwani Logistics Ltd",
     "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "endDate": "10 October, 2023",
+    "budget": "$15,000",
+    "overview": "We developed a comprehensive web-based fleet management system for Pwani Logistics to track their trucks moving from the Port of Mombasa across East Africa in real-time.",
+    "overviewSecondary": "The system includes GPS tracking integration, driver management, fuel consumption analytics, and automated maintenance alerts, drastically reducing their operational costs.",
+    "goalsText": "The primary goal was to eliminate manual tracking and provide real-time visibility into the fleet's location and performance.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "Real-time GPS tracking integration.",
+      "Automated fuel and maintenance reports.",
+      "Driver assignment and scheduling module.",
+      "Cloud-based scalable architecture."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "The project was a massive success, increasing Pwani Logistics' delivery efficiency by 30% and reducing fuel theft incidents through strict monitoring."
   },
   {
     "id": "2",
-    "slug": "generation-of-wealth-2",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "e-pwani-ecommerce-app",
+    "title": "E-Pwani E-Commerce App",
+    "category": "Mobile App",
     "image": "/assets/images/portfolio/portfolio-6-2.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-2.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
-    "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "client": "E-Pwani Retail",
+    "startDate": "15 Jan, 2024",
+    "endDate": "20 May, 2024",
+    "budget": "$22,000",
+    "overview": "Crackit designed and developed a native mobile application (iOS and Android) for E-Pwani, a rising e-commerce platform focusing on coastal vendors.",
+    "overviewSecondary": "The app features a seamless checkout process, M-Pesa integration, vendor dashboards, and real-time order tracking.",
+    "goalsText": "E-Pwani wanted to capture the mobile market and provide an easy-to-use platform for both buyers and local sellers.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "Native iOS and Android apps.",
+      "Seamless M-Pesa and card payments.",
+      "Vendor and user dashboards.",
+      "Push notification integration."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "Within 3 months of launch, E-Pwani saw a 50% increase in mobile sales and onboarded over 200 new coastal vendors onto the platform."
   },
   {
     "id": "3",
-    "slug": "generation-of-wealth-3",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "mombasa-tourism-portal",
+    "title": "Mombasa Tourism Web Portal",
+    "category": "Web Development",
     "image": "/assets/images/portfolio/portfolio-6-3.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-3.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
-    "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "client": "Coast Tourism Board",
+    "startDate": "01 March, 2023",
+    "endDate": "30 May, 2023",
+    "budget": "$12,500",
+    "overview": "A beautifully designed, interactive web portal to showcase Mombasa's tourist attractions, allowing users to book tours, hotels, and experiences directly.",
+    "overviewSecondary": "Built using Vue.js and a headless CMS, the site is lightning fast and highly optimized for SEO, ensuring global reach.",
+    "goalsText": "To create a centralized, modern platform to boost tourism in Mombasa and provide a smooth booking experience for international and local tourists.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "Modern, responsive UI design.",
+      "Integration with hotel booking APIs.",
+      "Headless CMS for easy content updates.",
+      "Advanced SEO optimization."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "The new portal increased online bookings by 45% and significantly improved the digital footprint of the Mombasa tourism sector."
   },
   {
     "id": "4",
-    "slug": "generation-of-wealth-4",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "fintech-wallet-ui-ux",
+    "title": "Fintech Wallet Redesign",
+    "category": "UI/UX Design",
     "image": "/assets/images/portfolio/portfolio-6-4.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-4.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
-    "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "client": "MobiPay Solutions",
+    "startDate": "10 Aug, 2023",
+    "endDate": "15 Sep, 2023",
+    "budget": "$8,000",
+    "overview": "Crackit was hired to completely overhaul the UI/UX of MobiPay's existing digital wallet application to improve user retention and simplify transactions.",
+    "overviewSecondary": "We conducted extensive user research, simplified the user journey for sending money, and created a sleek, modern design system.",
+    "goalsText": "MobiPay users were finding the old app clunky and confusing. The goal was a clean, intuitive, and trustworthy design.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "Comprehensive UX audit and research.",
+      "Wireframing and interactive prototyping.",
+      "Creation of a new design system.",
+      "High-fidelity UI mockups."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "The redesign led to a 60% drop in user drop-offs during the transaction flow and overwhelmingly positive feedback from their user base."
   },
   {
     "id": "5",
-    "slug": "generation-of-wealth-5",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "agritech-supply-chain",
+    "title": "AgriTech Supply Chain ERP",
+    "category": "Software Development",
     "image": "/assets/images/portfolio/portfolio-6-5.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-5.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
-    "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "client": "Kilimo Coastal Network",
+    "startDate": "05 Nov, 2023",
+    "endDate": "20 March, 2024",
+    "budget": "$35,000",
+    "overview": "We built a custom ERP system for Kilimo Coastal Network to manage their entire agricultural supply chain, from farmers to distributors.",
+    "overviewSecondary": "The platform includes inventory management, payment processing, and advanced reporting dashboards to optimize the distribution of produce.",
+    "goalsText": "To digitize the supply chain, reduce produce wastage, and ensure farmers get paid on time.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "Custom ERP architecture.",
+      "Real-time inventory tracking.",
+      "Automated payment disbursements.",
+      "Data visualization and reporting."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "The ERP reduced supply chain inefficiencies by 40%, significantly lowering produce wastage and improving farmer satisfaction."
   },
   {
     "id": "6",
-    "slug": "generation-of-wealth-6",
-    "title": "Generation Of Wealth",
-    "category": "Marketing",
+    "slug": "cloud-migration-healthcare",
+    "title": "Healthcare Cloud Migration",
+    "category": "Cloud & DevOps",
     "image": "/assets/images/portfolio/portfolio-6-6.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-1.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "jhon son smith",
-    "startDate": "10 June, 2023",
-    "endDate": "10 october, 2023",
-    "budget": "$25800.99",
-    "overview": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
-    "overviewSecondary": "pellentesque vulputate malesuada dictumst fames interdum cursus an te tellus porta ullamcorper accumsan non eu adipiscing integer venenatis sagittis arcu curae finibus ridi culus aliquam velit lobortis senectus vitae sollicitudin sit consectetuer ultricies rutrum parturient pede nisi nascetur habitant netus quisque elementum inceptos nam felis penatibus feugiat",
-    "goalsText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue",
+    "client": "Pwani MedCenter",
+    "startDate": "10 Dec, 2023",
+    "endDate": "20 Feb, 2024",
+    "budget": "$18,000",
+    "overview": "We successfully migrated Pwani MedCenter's legacy patient management system to a secure, HIPAA-compliant AWS cloud infrastructure.",
+    "overviewSecondary": "Our DevOps team also set up automated backups, disaster recovery protocols, and CI/CD pipelines for their internal software updates.",
+    "goalsText": "To move away from unreliable on-premise servers and ensure patient data is highly secure and accessible 24/7.",
     "goalsBullets": [
-      "Various analysis options.",
-      "Page Load (time, size, number of requests).",
-      "Advance Data analysis operation.",
-      "Accusamus et iusto odio dignissimos."
+      "AWS cloud architecture design.",
+      "Secure data migration.",
+      "Implementation of CI/CD pipelines.",
+      "Disaster recovery planning."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "At tempus aenean sapien torquent sed diam class efficitur mus morbi eros dictum quam augue ac laor eet ligula libero mi commodo nibh hac fermentum orci ad pharetra consequat justo duis turpis lorem elit dui consectetur magnis lacinia odio per placerat vestibulum volutpat mauris mollis primis imperdiet posu ere ex enim gravida cras congue"
+    "conclusionText": "The hospital now experiences zero downtime, and their IT infrastructure costs have been reduced by 25% while vastly improving security."
   }
 ]

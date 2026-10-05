@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "name": "Wade Warren",
-    "role": "Writer",
+    "name": "Khamis Ali",
+    "role": "Lead Developer",
     "image": "/assets/images/team/team-2-1.jpg",
     "socialLinks": {
       "facebook": "https://facebook.com",
@@ -12,8 +12,8 @@
   },
   {
     "id": "2",
-    "name": "Jacob Jones",
-    "role": "Marketing",
+    "name": "Fatma Omar",
+    "role": "UI/UX Designer",
     "image": "/assets/images/team/team-2-2.jpg",
     "socialLinks": {
       "facebook": "https://facebook.com",
@@ -23,8 +23,8 @@
   },
   {
     "id": "3",
-    "name": "Jenny Wilson",
-    "role": "Branding",
+    "name": "David Mutua",
+    "role": "Product Manager",
     "image": "/assets/images/team/team-2-3.jpg",
     "socialLinks": {
       "facebook": "https://facebook.com",
@@ -34,8 +34,8 @@
   },
   {
     "id": "4",
-    "name": "Robert Fox",
-    "role": "Developer",
+    "name": "Grace Wanjiku",
+    "role": "Cloud Architect",
     "image": "/assets/images/team/team-2-4.jpg",
     "socialLinks": {
       "facebook": "https://facebook.com",

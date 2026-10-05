@@ -2,60 +2,60 @@
   "monthly": [
     {
       "id": "m1",
-      "title": "Company",
-      "price": "$99",
-      "period": "Par month",
+      "title": "Startup MVP",
+      "price": "$500",
+      "period": "Per project",
       "billingCycle": "monthly",
       "features": [
-        "Branding and design Identity",
-        "Web site Marketing Solutions",
-        "Setup & Onboarding",
-        "24/7 system Monitoring",
-        "Awesome Consulting"
+        "Web App Development",
+        "Basic UI/UX Design",
+        "Setup & Cloud Deployment",
+        "1 Month Support",
+        "Agile Methodology"
       ]
     },
     {
       "id": "m2",
-      "title": "Agency",
-      "price": "$149",
-      "period": "Par month",
+      "title": "Enterprise",
+      "price": "$1500",
+      "period": "Per month",
       "billingCycle": "monthly",
       "features": [
-        "Branding and design Identity",
-        "Web site Marketing Solutions",
-        "Setup & Onboarding",
-        "24/7 system Monitoring",
-        "Awesome Consulting"
+        "Full-Stack Custom Software",
+        "Mobile App (iOS & Android)",
+        "Advanced Cloud Architecture",
+        "24/7 System Monitoring",
+        "Dedicated Tech Lead"
       ]
     }
   ],
   "yearly": [
     {
       "id": "y1",
-      "title": "Company",
-      "price": "$199",
-      "period": "Par year",
+      "title": "Startup MVP",
+      "price": "$5000",
+      "period": "Per year",
       "billingCycle": "yearly",
       "features": [
-        "Branding and design Identity",
-        "Web site Marketing Solutions",
-        "Setup & Onboarding",
-        "24/7 system Monitoring",
-        "Awesome Consulting"
+        "Web App Development",
+        "Basic UI/UX Design",
+        "Setup & Cloud Deployment",
+        "12 Months Support",
+        "Agile Methodology"
       ]
     },
     {
       "id": "y2",
-      "title": "Agency",
-      "price": "$349",
-      "period": "Par year",
+      "title": "Enterprise",
+      "price": "$15000",
+      "period": "Per year",
       "billingCycle": "yearly",
       "features": [
-        "Branding and design Identity",
-        "Web site Marketing Solutions",
-        "Setup & Onboarding",
-        "24/7 system Monitoring",
-        "Awesome Consulting"
+        "Full-Stack Custom Software",
+        "Mobile App (iOS & Android)",
+        "Advanced Cloud Architecture",
+        "24/7 System Monitoring",
+        "Dedicated Tech Lead"
       ]
     }
   ]
