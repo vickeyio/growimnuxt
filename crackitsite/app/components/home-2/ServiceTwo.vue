@@ -42,14 +42,14 @@
               <div class="service-two__item__number"></div>
             </div>
             <div v-if="index === 0 || index === 3" class="service-two__item__image">
-              <img :src="index === 0 ? '/assets/images/resources/service-2-1.jpg' : '/assets/images/resources/service-2-4.jpg'" :alt="service.title" />
+              <img :src="index === 0 ? '/assets/images/resources/service-2-1.jpg' : '/assets/images/resources/service24.jpg'" :alt="service.title" />
             </div>
           </div>
         </div>
       </div>
       <div
         class="service-two__bottom"
-        style="background-image: url(/assets/images/backgrounds/service-two-bottom-bg.jpg);"
+        style="background-image: url(/assets/images/backgrounds/techimage.jpg);"
       >
         <div class="service-two__bottom__clients">
           <img src="/assets/images/resources/client-1-1.png" alt="crackit" />

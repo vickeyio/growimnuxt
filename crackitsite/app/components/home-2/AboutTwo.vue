@@ -8,7 +8,7 @@
         <div class="col-lg-6">
           <div class="about-two__image-wrapper">
             <div class="about-two__image">
-              <img src="/assets/images/resources/about-2-1.jpg" alt="crackit" />
+              <img src="/assets/images/resources/tech-workspace.jpg" alt="tech workspace" />
             </div>
             <div class="about-two__image-wrapper__shape-one" style="background-image: url(/assets/images/shapes/about-2-shape-4.png);"></div>
             <div class="about-two__image-wrapper__shape-two" style="background-image: url(/assets/images/shapes/about-2-shape-5.png);"></div>

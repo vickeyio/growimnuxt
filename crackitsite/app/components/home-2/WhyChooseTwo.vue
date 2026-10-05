@@ -7,12 +7,12 @@
         <div class="col-xl-6 d-flex align-items-center">
           <div class="why-choose-two__content">
             <div class="sec-title text-left">
-              <h6 class="sec-title__tagline">YOUR INVENTORY IS TIME</h6>
-              <h3 class="sec-title__title">Digital Agency <span>Excellence</span> Services</h3>
+              <h6 class="sec-title__tagline">SCALE YOUR INFRASTRUCTURE</h6>
+              <h3 class="sec-title__title">Advanced Tech <span>Solutions</span> & Architecture</h3>
             </div>
             <p class="why-choose-two__content__text">
-              And you spend over half of it on non-core functions like Following up for Payments or Writing Proposals
-              from scratch or sending Manual Updates to your Clients.
+              Stop wrestling with legacy systems and manual deployments. We build scalable, modern cloud architectures
+              and high-performance applications so your team can focus on growth.
             </p>
             <ul class="why-choose-two__list">
               <li>
