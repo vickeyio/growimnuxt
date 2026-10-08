@@ -9,7 +9,7 @@
     },
     "tag": "Technology",
     "commentsCount": 5,
-    "image": "/assets/images/blog/blog-2-1-big.png",
+    "image": "/assets/images/blog/mombasaimages.jpg",
     "isFeatured": true,
     "author": {
       "name": "Khamis Ali",
@@ -26,7 +26,7 @@
     },
     "tag": "Cloud",
     "commentsCount": 2,
-    "image": "/assets/images/blog/blog-2-1.jpg",
+    "image": "/assets/images/blog/devopsimg.jpg",
     "isFeatured": false,
     "author": {
       "name": "Grace Wanjiku",
@@ -43,7 +43,7 @@
     },
     "tag": "Development",
     "commentsCount": 8,
-    "image": "/assets/images/blog/blog-2-2.jpg",
+    "image": "/assets/images/blog/vuevsreacts.jpg",
     "isFeatured": false,
     "author": {
       "name": "Khamis Ali",

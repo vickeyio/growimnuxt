@@ -1,111 +1,111 @@
 [
   {
     "id": "1",
-    "slug": "pwani-logistics-fleet-management",
-    "title": "Pwani Logistics Fleet Management",
-    "category": "Software Development",
-    "image": "/assets/images/portfolio/portfolio-6-1.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-1.jpg",
+    "slug": "mradi360",
+    "title": "Mradi360",
+    "category": "Project Management",
+    "image": "/assets/images/portfolio/mradi360.jpg",
+    "sliderImage": "/assets/images/portfolio/mradi360.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "Pwani Logistics Ltd",
-    "startDate": "10 June, 2023",
-    "endDate": "10 October, 2023",
-    "budget": "$15,000",
-    "overview": "We developed a comprehensive web-based fleet management system for Pwani Logistics to track their trucks moving from the Port of Mombasa across East Africa in real-time.",
-    "overviewSecondary": "The system includes GPS tracking integration, driver management, fuel consumption analytics, and automated maintenance alerts, drastically reducing their operational costs.",
-    "goalsText": "The primary goal was to eliminate manual tracking and provide real-time visibility into the fleet's location and performance.",
+    "client": "Mradi360 Inc",
+    "startDate": "12 Jan, 2024",
+    "endDate": "20 May, 2024",
+    "budget": "$18,000",
+    "overview": "A comprehensive project management site called Mradi360. We built a modern web platform to manage tasks, collaborate in real-time, and track project milestones effortlessly.",
+    "overviewSecondary": "The system includes Kanban boards, Gantt charts, real-time notifications, and advanced reporting dashboards.",
+    "goalsText": "The goal was to streamline project workflows and eliminate reliance on scattered tools.",
     "goalsBullets": [
-      "Real-time GPS tracking integration.",
-      "Automated fuel and maintenance reports.",
-      "Driver assignment and scheduling module.",
-      "Cloud-based scalable architecture."
+      "Real-time task tracking and collaboration.",
+      "Interactive Kanban and Gantt views.",
+      "Advanced reporting and analytics.",
+      "Seamless integrations with third-party tools."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "The project was a massive success, increasing Pwani Logistics' delivery efficiency by 30% and reducing fuel theft incidents through strict monitoring."
+    "conclusionText": "Mradi360 successfully improved team productivity by 40% and centralized project communication for our client."
   },
   {
     "id": "2",
-    "slug": "e-pwani-ecommerce-app",
-    "title": "E-Pwani E-Commerce App",
-    "category": "Mobile App",
-    "image": "/assets/images/portfolio/portfolio-6-2.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-2.jpg",
+    "slug": "dukapal",
+    "title": "Dukapal",
+    "category": "POS System",
+    "image": "/assets/images/portfolio/dukapal.jpg",
+    "sliderImage": "/assets/images/portfolio/dukapal.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "E-Pwani Retail",
-    "startDate": "15 Jan, 2024",
-    "endDate": "20 May, 2024",
-    "budget": "$22,000",
-    "overview": "Crackit designed and developed a native mobile application (iOS and Android) for E-Pwani, a rising e-commerce platform focusing on coastal vendors.",
-    "overviewSecondary": "The app features a seamless checkout process, M-Pesa integration, vendor dashboards, and real-time order tracking.",
-    "goalsText": "E-Pwani wanted to capture the mobile market and provide an easy-to-use platform for both buyers and local sellers.",
+    "client": "Dukapal Retail",
+    "startDate": "05 Mar, 2024",
+    "endDate": "15 Jul, 2024",
+    "budget": "$12,000",
+    "overview": "A robust Point of Sale (POS) system called Dukapal designed for modern retail environments, providing seamless checkout experiences and inventory management.",
+    "overviewSecondary": "Features include multi-store management, offline capabilities, mobile payments integration, and detailed sales analytics.",
+    "goalsText": "To provide retailers with a fast, reliable, and user-friendly POS that scales with their business.",
     "goalsBullets": [
-      "Native iOS and Android apps.",
-      "Seamless M-Pesa and card payments.",
-      "Vendor and user dashboards.",
-      "Push notification integration."
+      "Intuitive checkout interface.",
+      "Real-time inventory synchronization.",
+      "Multi-branch and user management.",
+      "Comprehensive sales reporting."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "Within 3 months of launch, E-Pwani saw a 50% increase in mobile sales and onboarded over 200 new coastal vendors onto the platform."
+    "conclusionText": "Dukapal reduced checkout times by 30% and provided merchants with invaluable insights into their daily operations."
   },
   {
     "id": "3",
-    "slug": "mombasa-tourism-portal",
-    "title": "Mombasa Tourism Web Portal",
-    "category": "Web Development",
-    "image": "/assets/images/portfolio/portfolio-6-3.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-3.jpg",
+    "slug": "afya365",
+    "title": "Afya365",
+    "category": "Health Management",
+    "image": "/assets/images/portfolio/afya365.jpg",
+    "sliderImage": "/assets/images/portfolio/afya365.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "Coast Tourism Board",
-    "startDate": "01 March, 2023",
-    "endDate": "30 May, 2023",
-    "budget": "$12,500",
-    "overview": "A beautifully designed, interactive web portal to showcase Mombasa's tourist attractions, allowing users to book tours, hotels, and experiences directly.",
-    "overviewSecondary": "Built using Vue.js and a headless CMS, the site is lightning fast and highly optimized for SEO, ensuring global reach.",
-    "goalsText": "To create a centralized, modern platform to boost tourism in Mombasa and provide a smooth booking experience for international and local tourists.",
+    "client": "AfyaCare Networks",
+    "startDate": "10 Aug, 2023",
+    "endDate": "30 Jan, 2024",
+    "budget": "$25,000",
+    "overview": "A state-of-the-art Health Management System called Afya365. This platform centralizes patient records, appointment scheduling, and billing for clinics and hospitals.",
+    "overviewSecondary": "Built with strict security compliance, Afya365 ensures patient data privacy while offering a smooth experience for healthcare professionals.",
+    "goalsText": "To digitize healthcare administration and improve patient care through better data accessibility.",
     "goalsBullets": [
-      "Modern, responsive UI design.",
-      "Integration with hotel booking APIs.",
-      "Headless CMS for easy content updates.",
-      "Advanced SEO optimization."
+      "Electronic Health Records (EHR) management.",
+      "Automated appointment scheduling and reminders.",
+      "Integrated billing and insurance claims.",
+      "Telemedicine capabilities."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "The new portal increased online bookings by 45% and significantly improved the digital footprint of the Mombasa tourism sector."
+    "conclusionText": "Afya365 significantly reduced administrative overhead and improved patient satisfaction scores across deployed clinics."
   },
   {
     "id": "4",
-    "slug": "fintech-wallet-ui-ux",
-    "title": "Fintech Wallet Redesign",
-    "category": "UI/UX Design",
-    "image": "/assets/images/portfolio/portfolio-6-4.jpg",
+    "slug": "makao360",
+    "title": "Makao360",
+    "category": "Rental Management",
+    "image": "/assets/images/portfolio/portfolio-2-4.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-4.jpg",
     "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "MobiPay Solutions",
-    "startDate": "10 Aug, 2023",
-    "endDate": "15 Sep, 2023",
-    "budget": "$8,000",
-    "overview": "Crackit was hired to completely overhaul the UI/UX of MobiPay's existing digital wallet application to improve user retention and simplify transactions.",
-    "overviewSecondary": "We conducted extensive user research, simplified the user journey for sending money, and created a sleek, modern design system.",
-    "goalsText": "MobiPay users were finding the old app clunky and confusing. The goal was a clean, intuitive, and trustworthy design.",
+    "client": "Makao Estates",
+    "startDate": "01 Nov, 2023",
+    "endDate": "15 Mar, 2024",
+    "budget": "$16,500",
+    "overview": "A comprehensive Rental Management system called Makao360, designed to simplify property management for landlords and agencies.",
+    "overviewSecondary": "The system automates rent collection, tracks maintenance requests, and provides transparent dashboards for both property owners and tenants.",
+    "goalsText": "To create a transparent and efficient ecosystem for property management, eliminating manual record-keeping.",
     "goalsBullets": [
-      "Comprehensive UX audit and research.",
-      "Wireframing and interactive prototyping.",
-      "Creation of a new design system.",
-      "High-fidelity UI mockups."
+      "Automated rent invoicing and collection.",
+      "Tenant portal for payments and requests.",
+      "Maintenance task tracking.",
+      "Financial reporting and analytics."
     ],
     "galleryImages": [
       "/assets/images/portfolio/portfolio-details-2.jpg",
       "/assets/images/portfolio/portfolio-details-3.jpg"
     ],
-    "conclusionText": "The redesign led to a 60% drop in user drop-offs during the transaction flow and overwhelmingly positive feedback from their user base."
+    "conclusionText": "Makao360 streamlined property operations, increasing on-time rent collections by 25% and improving tenant-landlord communication."
   },
   {
     "id": "5",

@@ -46,7 +46,7 @@
           </div>
           <div class="col-md-6 col-xl-4">
             <div class="footer-widget footer-widget--mailchimp">
-              <h2 class="footer-widget__title">Subscribe Newsletter</h2>
+              <h2 class="footer-widget__title">Schedule A Consultation</h2>
               <form class="mc-form" @submit.prevent>
                 <input v-model="email" type="text" name="EMAIL" placeholder="Enter Email Address" />
                 <button type="submit" class="flaticon-paper-plan">
