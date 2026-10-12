@@ -11,22 +11,22 @@
         </NuxtLink>
       </div>
       <p class="sidebar-one__text">
-        Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-        puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+        Empowering businesses with innovative technology solutions. We craft
+        websites, apps, and strategies that drive growth and deliver results.
       </p>
       <h4 class="sidebar-one__title">Contact Info:</h4>
-      <ul class="sidebar-one__info">
+      <ul v-if="info" class="sidebar-one__info">
         <li>
           <span class="fas fa-map-marker-alt"></span>
-          85 Ketch Harbour RoadBensalem, PA 19020
+          {{ info.address }}
         </li>
         <li>
           <span class="fas fa-envelope"></span>
-          <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+          <a :href="`mailto:${info.email}`">{{ info.email }}</a>
         </li>
         <li>
           <span class="fas fa-phone-alt"></span>
-          <a href="tel:09969569535">099 695 695 35</a>
+          <a :href="`tel:${info.phoneClean || info.phone}`">{{ info.phone }}</a>
         </li>
       </ul>
       <div class="sidebar-one__social">
@@ -47,11 +47,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useNavigation } from '~/composables/useNavigation'
 
 const { isSidebarOpen, closeSidebar } = useNavigation()
 const email = ref('')
+
+const { getContactInfo } = useContact()
+const { data: contactResponse } = await getContactInfo()
+const info = computed(() => contactResponse.value?.data)
 
 const handleSubscribe = () => {
   email.value = ''

@@ -73,10 +73,3 @@ const { data: servicesResponse } = await getServices({ limit: 4 })
 const featuredServices = computed(() => servicesResponse.value?.data || [])
 </script>
 
-<style scoped>
-/* Tint orange/yellow backgrounds to blue to match tech startup theme */
-.service-two__bg,
-.service-two__bottom {
-  filter: hue-rotate(190deg) saturate(1.2);
-}
-</style>

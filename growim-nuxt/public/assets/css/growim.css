@@ -14,6 +14,8 @@
 # Client Carousel
 --------------------------------------------------------------*/
 :root {
+  /* --- Old Color Palette --- */
+  /*
   --growim-font: "Plus Jakarta Sans", sans-serif;
   --growim-heading-font: "Plus Jakarta Sans", sans-serif;
   --growim-text: #504E4E;
@@ -42,6 +44,54 @@
   --growim-border-color-rgb: 234, 243, 248;
   --growim-border2-color: #D4DCFF;
   --growim-border2-color-rgb: 212, 220, 255;
+  --growim-letter-space: 0.1em;
+  --growim-letter-space-xl: 0.2em;
+  */
+
+  /* --- New Color Palette --- */
+  --growim-font: "Plus Jakarta Sans", sans-serif;
+  --growim-heading-font: "Plus Jakarta Sans", sans-serif;
+  
+  /* Text Slate #334155 */
+  --growim-text: #334155;
+  --growim-text-rgb: 51, 65, 85;
+  
+  --growim-text-dark: #D9D9D9;
+  --growim-text-dark-rgb: 217, 217, 217;
+  --growim-text-gray: #89868d;
+  --growim-text-gray-rgb: 137, 134, 141;
+  
+  /* Brand Accent Electric Cyan #00C2FF */
+  --growim-base: #00C2FF;
+  --growim-base-rgb: 0, 194, 255;
+  --growim-primary: #00C2FF;
+  --growim-primary-rgb: 0, 194, 255;
+  
+  /* Secondary Accent Deep Blue #2563EB */
+  --growim-secondary: #2563EB;
+  --growim-secondary-rgb: 37, 99, 235;
+  
+  /* Light Background Offwhite #F8FAFC */
+  --growim-gray: #F8FAFC;
+  --growim-gray-rgb: 248, 250, 252;
+  
+  --growim-white: #fff;
+  --growim-white-rgb: 255, 255, 255;
+  
+  /* Primary graphite black #111827 */
+  --growim-black: #111827;
+  --growim-black-rgb: 17, 24, 39;
+  --growim-black2: #111827;
+  --growim-black2-rgb: 17, 24, 39;
+  
+  --growim-black3: #000;
+  --growim-black3-rgb: 0, 0, 0;
+  
+  --growim-border-color: #EAF3F8;
+  --growim-border-color-rgb: 234, 243, 248;
+  --growim-border2-color: #D4DCFF;
+  --growim-border2-color-rgb: 212, 220, 255;
+  
   --growim-letter-space: 0.1em;
   --growim-letter-space-xl: 0.2em;
 }

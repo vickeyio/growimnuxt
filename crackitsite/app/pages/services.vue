@@ -85,7 +85,7 @@
 
 
 
-                        <h3 class="sec-title__title">Our Working Pocess</h3><!-- /.sec-title__title -->
+                        <h3 class="sec-title__title">Our Working Process</h3><!-- /.sec-title__title -->
 
                     </div><!-- /.sec-title -->
 
@@ -105,11 +105,11 @@
 
                             </div>
 
-                            <h3 class="work-process-two__item__title">Choose A Service</h3>
+                            <h3 class="work-process-two__item__title">Discovery</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We start by understanding your business goals and current challenges.
 
                             </p>
 
@@ -121,11 +121,11 @@
 
                         <div class="work-process-two__item work-process-two__item--reverse">
 
-                            <h3 class="work-process-two__item__title">Define Requirements</h3>
+                            <h3 class="work-process-two__item__title">Planning</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                Our team designs a robust technical architecture and roadmap.
 
                             </p>
 
@@ -153,11 +153,11 @@
 
                             </div>
 
-                            <h3 class="work-process-two__item__title">Request A Meeting</h3>
+                            <h3 class="work-process-two__item__title">Development</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We build your solution using modern engineering practices.
 
                             </p>
 
@@ -169,11 +169,11 @@
 
                         <div class="work-process-two__item work-process-two__item--reverse">
 
-                            <h3 class="work-process-two__item__title">Final Solution</h3>
+                            <h3 class="work-process-two__item__title">Launch</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We deploy your product and provide ongoing support.
 
                             </p>
 
@@ -391,7 +391,7 @@
 
                             <div class="mail-section__image">
 
-                                <img src="/assets/images/resources/mail-1-1.png" alt="Growim">
+                                <img src="/assets/images/resources/mailman.png" alt="Growim">
 
                             </div>
 

@@ -1,3 +1,4 @@
+/*
 :root {
   --growim-base: #2563EB;
   --growim-base-rgb: toRGB(#2563EB);
@@ -6,6 +7,7 @@
   --growim-primary: #1E40AF;
   --growim-primary-rgb: toRGB(#1E40AF);
 }
+*/
 
 .sec-title__tagline {
   background: linear-gradient(90deg, var(--growim-base, #2563EB) 0%, var(--growim-secondary, #4F46E5) 100%);

@@ -60,4 +60,10 @@ const items = computed(() => response.value?.data || [])
 .portfolio-two__shape-one {
   filter: hue-rotate(190deg) saturate(1.2);
 }
+
+.portfolio-two__item img {
+  width: 100%;
+  aspect-ratio: 570 / 455;
+  object-fit: cover;
+}
 </style>

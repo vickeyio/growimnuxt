@@ -21,7 +21,7 @@
         <div class="row align-items-center">
           <div class="col-lg-5 col-xl-6">
             <div class="mail-section__image">
-              <img src="/assets/images/resources/mail-1-1.png" alt="Growim" class="img-fluid" />
+              <img src="/assets/images/resources/mailman.png" alt="Growim" class="img-fluid" />
             </div>
           </div>
           <div class="col-lg-7 col-xl-6">

@@ -44,15 +44,13 @@
 
 
 
-                                <h3 class="sec-title__title">We’re Strategic Digital Agency</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title">Your Trusted Technology Partner</h3><!-- /.sec-title__title -->
 
                             </div><!-- /.sec-title -->
 
                             <p class="about-one__content__text">
 
-                                In order to scale new customer acquisition and retention for e-commerce brands, we work across
-
-                                the entire customer journey. Our team has a successful track record of helping brands scale
+                                We are a leading technology solutions provider specializing in custom software development, cloud infrastructure, and IT consultancy. Our mission is to digitally transform businesses through innovative and scalable tech solutions.
 
                             </p>
 
@@ -66,7 +64,7 @@
 
                                         <h3 class="about-one__list__number">94%</h3>
 
-                                        <p class="about-one__list__text">SMS Services</p>
+                                        <p class="about-one__list__text">Cloud Deployments</p>
 
                                     </div>
 
@@ -80,7 +78,7 @@
 
                                         <h3 class="about-one__list__number">65%</h3>
 
-                                        <p class="about-one__list__text">Digital Solutions</p>
+                                        <p class="about-one__list__text">Software Projects</p>
 
                                     </div>
 
@@ -106,7 +104,7 @@
 
                             <div class="about-one__image__bg" style="background-image: url(assets/images/shapes/about-image-bg.png);"></div>
 
-                            <img src="/assets/images/resources/about-1-1.png" alt="growim">
+                            <img src="/assets/images/resources/gemini.png" alt="growim">
 
                             <div class="about-one__image__clients wow fadeInUp" data-wow-delay="400ms">
 
@@ -148,7 +146,7 @@
 
 
 
-                        <h3 class="sec-title__title">Our Working Pocess</h3><!-- /.sec-title__title -->
+                        <h3 class="sec-title__title">Our Working Process</h3><!-- /.sec-title__title -->
 
                     </div><!-- /.sec-title -->
 
@@ -168,11 +166,11 @@
 
                             </div>
 
-                            <h3 class="work-process-two__item__title">Choose A Service</h3>
+                            <h3 class="work-process-two__item__title">Discovery</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We start by understanding your business goals and current challenges.
 
                             </p>
 
@@ -184,11 +182,11 @@
 
                         <div class="work-process-two__item work-process-two__item--reverse">
 
-                            <h3 class="work-process-two__item__title">Define Requirements</h3>
+                            <h3 class="work-process-two__item__title">Planning</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                Our team designs a robust technical architecture and roadmap.
 
                             </p>
 
@@ -216,11 +214,11 @@
 
                             </div>
 
-                            <h3 class="work-process-two__item__title">Request A Meeting</h3>
+                            <h3 class="work-process-two__item__title">Development</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We build your solution using modern engineering practices.
 
                             </p>
 
@@ -232,11 +230,11 @@
 
                         <div class="work-process-two__item work-process-two__item--reverse">
 
-                            <h3 class="work-process-two__item__title">Final Solution</h3>
+                            <h3 class="work-process-two__item__title">Launch</h3>
 
                             <p class="work-process-two__item__text">
 
-                                In a free hour, when our power of choice is untrammeled and
+                                We deploy your product and provide ongoing support.
 
                             </p>
 
@@ -358,7 +356,7 @@
 
                             <div class="why-choose-three__image__bg wow fadeInRight" data-wow-delay="300ms" style="background-image: url(assets/images/shapes/why-choose-3-bg.png);"></div>
 
-                            <img src="/assets/images/resources/why-choose-3-1.png" alt="growim">
+                            <img src="/assets/images/resources/gemini2.png" alt="growim">
 
                         </div><!-- /.why-choose-three__image -->
 
@@ -370,242 +368,6 @@
 
         </section><!-- /.why-choose-three -->
 
-
-
-
-
-
-        <section class="team-four">
-
-            <div class="container">
-
-                <div class="team-four__top">
-
-                    <div class="sec-title text-left">
-
-
-
-                        <h6 class="sec-title__tagline">our expert team</h6><!-- /.sec-title__tagline -->
-
-
-
-                        <h3 class="sec-title__title">Meet Our Professional<br> Team Members</h3><!-- /.sec-title__title -->
-
-                    </div><!-- /.sec-title -->
-
-                    <a class="growim-btn" href="/team">
-
-                        <span class="growim-btn__text">View ALL Member</span>
-
-                    </a>
-
-                </div>
-
-                <Swiper
-                  class="team-four__carousel growim-owl__carousel growim-owl__carousel--with-shadow growim-owl__carousel--basic-nav"
-                  :modules="[SwiperNavigation]"
-                  :loop="false"
-                  :speed="700"
-                  :navigation="true"
-                  :space-between="30"
-                  :breakpoints="{
-                    0: { slidesPerView: 1 },
-                    500: { slidesPerView: 2 },
-                    992: { slidesPerView: 3 }
-                  }"
-                >
-
-                    <SwiperSlide>
-
-                        <div class="team-card-four wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
-
-                            <div class="team-card-four__image">
-
-                                <img src="/assets/images/team/team-4-1.jpg" alt="Leslie Alexander">
-
-                            </div><!-- /.team-card-four__image -->
-
-                            <div class="team-card-four__content">
-
-                                <h3 class="team-card-four__title">
-
-                                    <a href="/team-details">Leslie Alexander</a>
-
-                                </h3><!-- /.team-card-four__title -->
-
-                                <p class="team-card-four__designation">Design</p><!-- /.team-card-four__designation -->
-
-                                <div class="team-card-four__social">
-
-                                    <a href="https://facebook.com">
-
-                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Facebook</span>
-
-                                    </a>
-
-                                    <a href="https://www.instagram.com/">
-
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Instagram</span>
-
-                                    </a>
-
-                                    <a href="https://twitter.com">
-
-                                        <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Twitter</span>
-
-                                    </a>
-
-                                    <a href="https://www.linkedin.com/">
-
-                                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Linkedin</span>
-
-                                    </a>
-
-                                </div><!-- /.team-card-four__social__list -->
-
-                            </div><!-- /.team-card-four__content -->
-
-                        </div><!-- /.team-card-four -->
-
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-
-                        <div class="team-card-four wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='1.5k'>
-
-                            <div class="team-card-four__image">
-
-                                <img src="/assets/images/team/team-4-2.jpg" alt="Kristin Watson">
-
-                            </div><!-- /.team-card-four__image -->
-
-                            <div class="team-card-four__content">
-
-                                <h3 class="team-card-four__title">
-
-                                    <a href="/team-details">Kristin Watson</a>
-
-                                </h3><!-- /.team-card-four__title -->
-
-                                <p class="team-card-four__designation">CTO & Founder</p><!-- /.team-card-four__designation -->
-
-                                <div class="team-card-four__social">
-
-                                    <a href="https://facebook.com">
-
-                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Facebook</span>
-
-                                    </a>
-
-                                    <a href="https://www.instagram.com/">
-
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Instagram</span>
-
-                                    </a>
-
-                                    <a href="https://twitter.com">
-
-                                        <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Twitter</span>
-
-                                    </a>
-
-                                    <a href="https://www.linkedin.com/">
-
-                                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Linkedin</span>
-
-                                    </a>
-
-                                </div><!-- /.team-card-four__social__list -->
-
-                            </div><!-- /.team-card-four__content -->
-
-                        </div><!-- /.team-card-four -->
-
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-
-                        <div class="team-card-four wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-
-                            <div class="team-card-four__image">
-
-                                <img src="/assets/images/team/team-4-3.jpg" alt="Brooklyn Simmons">
-
-                            </div><!-- /.team-card-four__image -->
-
-                            <div class="team-card-four__content">
-
-                                <h3 class="team-card-four__title">
-
-                                    <a href="/team-details">Brooklyn Simmons</a>
-
-                                </h3><!-- /.team-card-four__title -->
-
-                                <p class="team-card-four__designation">Developer</p><!-- /.team-card-four__designation -->
-
-                                <div class="team-card-four__social">
-
-                                    <a href="https://facebook.com">
-
-                                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Facebook</span>
-
-                                    </a>
-
-                                    <a href="https://www.instagram.com/">
-
-                                        <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Instagram</span>
-
-                                    </a>
-
-                                    <a href="https://twitter.com">
-
-                                        <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Twitter</span>
-
-                                    </a>
-
-                                    <a href="https://www.linkedin.com/">
-
-                                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-
-                                        <span class="sr-only">Linkedin</span>
-
-                                    </a>
-
-                                </div><!-- /.team-card-four__social__list -->
-
-                            </div><!-- /.team-card-four__content -->
-
-                        </div><!-- /.team-card-four -->
-
-                    </SwiperSlide>
-
-                </Swiper>
-
-            </div><!-- /.container -->
-
-        </section><!-- /.team-four -->
 
 
 
@@ -629,7 +391,7 @@
 
                             <div class="mail-section__image">
 
-                                <img src="/assets/images/resources/mail-1-1.png" alt="Growim">
+                                <img src="/assets/images/resources/mailman.png" alt="Growim">
 
                             </div>
 
@@ -639,7 +401,7 @@
 
                             <div class="mail-section__form">
 
-                                <h3 class="mail-section__form__title">Subscribe To Our Newsletter!</h3>
+                                <h3 class="mail-section__form__title">Schedule A Consultation</h3>
 
                                 <form action="about.html#" data-url="MAILCHIMP_FORM_URL" class="mc-form">
 

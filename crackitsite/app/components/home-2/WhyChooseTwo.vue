@@ -30,7 +30,7 @@
                 </div>
                 <div class="why-choose-two__list__content">
                   <h3 class="why-choose-two__list__number">65%</h3>
-                  <p class="why-choose-two__list__text">Digital Solutions</p>
+                  <p class="why-choose-two__list__text">Tech Solutions</p>
                 </div>
               </li>
             </ul>
