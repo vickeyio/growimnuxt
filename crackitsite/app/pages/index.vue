@@ -10,7 +10,6 @@
     <Home2BlogTwo />
     <Home2ClientCarousel />
     <Home2TextMarquee />
-    <Home2ContactInfo />
   </div>
 </template>
 
