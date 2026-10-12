@@ -16,12 +16,12 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Home Two || Crackit || Creative Digital Agency',
+  title: 'Home || Crackit || Innovative Tech Company',
   meta: [
     {
       name: 'description',
       content:
-        'Crackit Home Two — digital solutions, branding, SEO, and web development converted from the Growim HTML template.'
+        'Crackit — technology solutions, software development, cloud infrastructure, and IT consultancy for businesses.'
     }
   ]
 })

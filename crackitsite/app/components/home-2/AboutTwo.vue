@@ -27,7 +27,7 @@
           <div class="about-two__content">
             <div class="sec-title text-left">
               <h6 class="sec-title__tagline">About Us</h6>
-              <h3 class="sec-title__title">We’re Strategic Digital <span>Agency</span></h3>
+              <h3 class="sec-title__title">We’re a Strategic Tech <span>Company</span></h3>
             </div>
             <p class="about-two__content__text">
               In order to scale new customer acquisition and retention for e-commerce brands, we work across

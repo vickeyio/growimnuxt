@@ -36,7 +36,7 @@
             <div class="footer-widget footer-widget--links">
               <h2 class="footer-widget__title">our services</h2>
               <ul class="list-unstyled footer-widget__links">
-                <li><NuxtLink to="/services">digital services</NuxtLink></li>
+                <li><NuxtLink to="/services">tech services</NuxtLink></li>
                 <li><NuxtLink to="/services">web development</NuxtLink></li>
                 <li><NuxtLink to="/services">SEO optimized</NuxtLink></li>
                 <li><NuxtLink to="/services">App Development</NuxtLink></li>
