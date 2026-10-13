@@ -18,7 +18,7 @@
             <div class="contact-two__image">
               <img src="/assets/images/shapes/contact-page-1.png" alt="growim" />
               <div class="contact-two__image__video">
-                <img src="/assets/images/resources/contact-page-video.jpg" alt="growim" />
+                <img src="/assets/images/resources/contact-page-video.jpeg" alt="growim" />
                 <a href="#" class="video-popup" @click.prevent="openVideo">
                   <span class="ripple"></span>
                   <i class="fa fa-play"></i>

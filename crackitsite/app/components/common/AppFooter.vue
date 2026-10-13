@@ -48,8 +48,7 @@
             &copy; Copyright {{ year }} by Crackit.
           </p>
           <ul class="main-footer__bottom__menu">
-            <li><NuxtLink to="/contact">Terms &amp; Conditions</NuxtLink></li>
-            <li><NuxtLink to="/contact">Privacy Policy</NuxtLink></li>
+            <li><NuxtLink to="/contact">All rights reserved</NuxtLink></li>
           </ul>
         </div><!-- /.main-footer__inner -->
       </div><!-- /.container -->
