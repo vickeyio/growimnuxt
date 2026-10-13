@@ -16,9 +16,9 @@
             1200: { slidesPerView: 8, spaceBetween: 45 }
           }"
         >
-          <SwiperSlide v-for="(brand, i) in brands" :key="i">
+          <SwiperSlide v-for="client in clients" :key="client.name">
             <div class="client-carousel__one__item">
-              <img :src="brand" alt="crackit" />
+              <img :src="client.logo" :alt="client.name" />
             </div>
           </SwiperSlide>
         </Swiper>
@@ -31,14 +31,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay as SwiperAutoplay } from 'swiper/modules'
 
-const brands = [
-  '/assets/images/resources/brand-1-1.png',
-  '/assets/images/resources/brand-1-2.png',
-  '/assets/images/resources/brand-1-3.png',
-  '/assets/images/resources/brand-1-4.png',
-  '/assets/images/resources/brand-1-5.png',
-  '/assets/images/resources/brand-1-6.png',
-  '/assets/images/resources/brand-1-7.png',
-  '/assets/images/resources/brand-1-8.png'
-]
+const { getClients } = useClients()
+const { data: clientsResponse } = await getClients()
+const clients = computed(() => clientsResponse.value?.data ?? [])
 </script>

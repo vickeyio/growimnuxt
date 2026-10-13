@@ -272,39 +272,25 @@
 
                             <div class="sec-title text-left">
 
+                                <h6 class="sec-title__tagline">{{ wca?.tagline }}</h6><!-- /.sec-title__tagline -->
 
-
-                                <h6 class="sec-title__tagline">why choose us</h6><!-- /.sec-title__tagline -->
-
-
-
-                                <h3 class="sec-title__title">Why Choose Us</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title">{{ wca?.title }}</h3><!-- /.sec-title__title -->
 
                             </div><!-- /.sec-title -->
 
                             <p class="why-choose-three__content__text">
 
-                                It is a long established fact that a reader will be distracted the readable content of a page when
-
-                                looking at layout the point of using lorem the is Ipsum less normal.
+                                {{ wca?.body }}
 
                             </p>
 
                             <ul class="why-choose-three__list">
 
-                                <li>
+                                <li v-for="feature in wca?.features" :key="feature.label">
 
-                                    <div class="why-choose-three__list__icon"><i class="flaticon-mission"></i></div>
+                                    <div class="why-choose-three__list__icon"><i :class="feature.icon"></i></div>
 
-                                    Business<br> Growth
-
-                                </li>
-
-                                <li>
-
-                                    <div class="why-choose-three__list__icon"><i class="flaticon-technology"></i></div>
-
-                                    Technology<br> Consultancy
+                                    {{ feature.label }}
 
                                 </li>
 
@@ -314,17 +300,13 @@
 
                                 <div class="col-md-6">
 
-                                    <div class="why-choose-three__author">
+                                    <div class="why-choose-three__call">
 
-                                        <img src="/assets/images/resources/why-choose-three-author.jpg" alt="growim">
+                                        <div class="why-choose-three__call__icon"><span class="flaticon-email"></span></div>
 
-                                        <h3 class="why-choose-three__author__name">
+                                        <div class="why-choose-three__call__title">Email Us</div>
 
-                                            Ronald Richards
-
-                                        </h3>
-
-                                        <p class="why-choose-three__author__designation">Co, Founder</p>
+                                        <a class="why-choose-three__call__text" :href="`mailto:${contactInfo?.data?.email}`">{{ contactInfo?.data?.email }}</a>
 
                                     </div>
 
@@ -338,7 +320,7 @@
 
                                         <div class="why-choose-three__call__title">Call Us Now</div>
 
-                                        <a class="why-choose-three__call__text" href="tel:+2085550112">+208-555-0112</a>
+                                        <a class="why-choose-three__call__text" :href="`tel:${contactInfo?.data?.phoneClean}`">{{ contactInfo?.data?.phone }}</a>
 
                                     </div>
 
@@ -435,8 +417,31 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay as SwiperAutoplay, Navigation as SwiperNavigation } from 'swiper/modules'
 
+const { data: contactInfo } = await useFetch('/api/contact-info')
+
+const { getAbout } = useAbout()
+const { data: aboutResponse } = await getAbout()
+const wca = computed(() => aboutResponse.value?.data?.whyChooseAboutPage)
+
 // You can extract components later if needed.
 </script>
 
 <style scoped>
+/* Scale down the contact text so email & phone fit on one line */
+.why-choose-three__call__text {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  word-break: break-all;
+  line-height: 1.4;
+  text-transform: none !important;
+}
+
+.why-choose-three__call__title {
+  font-size: 12px !important;
+  margin-bottom: 2px;
+}
+
+.why-choose-three__call {
+  margin-right: 0 !important;
+}
 </style>

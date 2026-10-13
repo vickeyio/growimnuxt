@@ -26,21 +26,16 @@
         <div class="col-lg-6 d-flex align-items-center">
           <div class="about-two__content">
             <div class="sec-title text-left">
-              <h6 class="sec-title__tagline">About Us</h6>
-              <h3 class="sec-title__title">We’re a Strategic Tech <span>Company</span></h3>
+              <h6 class="sec-title__tagline">{{ about?.tagline }}</h6>
+              <h3 class="sec-title__title">{{ about?.title }}</h3>
             </div>
             <p class="about-two__content__text">
-              In order to scale new customer acquisition and retention for e-commerce brands, we work across
-              the entire customer journey. Our team has a successful track record of helping brands scale
+              {{ about?.body }}
             </p>
             <ul class="about-two__list">
-              <li>
-                <h3 class="about-two__list__number">200+</h3>
-                <p class="about-two__list__text">Successful<br> campaigns</p>
-              </li>
-              <li>
-                <h3 class="about-two__list__number">75%</h3>
-                <p class="about-two__list__text">Average increase in<br> website traffic</p>
+              <li v-for="stat in about?.stats" :key="stat.label">
+                <h3 class="about-two__list__number">{{ stat.value }}</h3>
+                <p class="about-two__list__text">{{ stat.label }}</p>
               </li>
             </ul>
             <a class="growim-btn" href="#about">
@@ -57,27 +52,31 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
+const { getAbout } = useAbout()
+const { data: aboutResponse } = await getAbout()
+const about = computed(() => aboutResponse.value?.data)
+
 const animatedYears = ref(0)
-const targetYears = 25
+const targetYears = computed(() => about.value?.yearsOfExperience ?? 5)
 let animationFrame: number | null = null
 
 const animateCount = () => {
   const duration = 1500
   const startTime = performance.now()
-  
+
   const updateCount = (currentTime: number) => {
     const elapsed = currentTime - startTime
     const progress = Math.min(elapsed / duration, 1)
-    
-    animatedYears.value = Math.floor(progress * targetYears)
-    
+
+    animatedYears.value = Math.floor(progress * targetYears.value)
+
     if (progress < 1) {
       animationFrame = requestAnimationFrame(updateCount)
     } else {
-      animatedYears.value = targetYears
+      animatedYears.value = targetYears.value
     }
   }
-  
+
   animationFrame = requestAnimationFrame(updateCount)
 }
 

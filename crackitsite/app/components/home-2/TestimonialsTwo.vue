@@ -10,7 +10,7 @@
               <img src="/assets/images/resources/client-1-2.png" alt="crackit" />
               <img src="/assets/images/resources/client-1-3.png" alt="crackit" />
               <img src="/assets/images/resources/client-1-4.png" alt="crackit" />
-              <span>1.5k Happy Clients</span>
+              <span>{{ contactInfo?.happyClients }} Happy Clients</span>
             </div>
             <div class="testimonials-two__nav">
               <a href="#" class="testimonials-two__nav__prev" @click.prevent><i class="flaticon-left-arrows"></i></a>
@@ -60,4 +60,8 @@ import { Autoplay as SwiperAutoplay, Navigation as SwiperNavigation } from 'swip
 const { getTestimonials } = useTestimonials()
 const { data: testimonialsResponse } = await getTestimonials()
 const testimonials = computed(() => testimonialsResponse.value?.data || [])
+
+const { getContactInfo } = useContact()
+const { data: contactResponse } = await getContactInfo()
+const contactInfo = computed(() => contactResponse.value?.data)
 </script>

@@ -3,11 +3,20 @@ export interface ContactInfo {
   phone: string
   phoneClean: string
   email: string
+  happyClients: string
+  videoUrl: string
   openingHours: {
     weekdays: string
+    saturday: string
     sunday: string
-    friday: string
   }
+  socialLinks: {
+    facebook: string
+    twitter: string
+    linkedin: string
+    youtube: string
+  }
+  marqueeItems: string[]
 }
 
 export interface ContactMessageInput {

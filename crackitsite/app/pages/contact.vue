@@ -29,8 +29,8 @@
 
           <div class="col-lg-6">
             <div class="contact-two__content">
-              <h3 class="contact-two__title">We'll respond to you in an hour.</h3>
-              <p class="contact-two__text">Neque porro est qui dolorem ipsum quia quaed inventor veritatis et</p>
+              <h3 class="contact-two__title">We'll respond to you within 24 hours.</h3>
+              <p class="contact-two__text">Have a project in mind or need expert tech advice? Fill in the form and our team will get back to you promptly.</p>
 
               <!-- Feedback alerts -->
               <div v-if="successMessage" class="alert alert-success mt-3 mb-3">
@@ -139,7 +139,7 @@ const { data: infoResponse } = await getContactInfo()
 const info = computed(() => infoResponse.value?.data)
 
 const isVideoOpen = ref(false)
-const videoUrl = 'https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1'
+const videoUrl = computed(() => info.value?.videoUrl ?? 'https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1')
 const openVideo = () => {
   isVideoOpen.value = true
 }

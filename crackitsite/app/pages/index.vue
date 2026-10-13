@@ -5,11 +5,13 @@
     <Home2ServiceTwo />
     <Home2WhyChooseTwo />
     <Home2PortfolioTwo />
-    <Home2PricingTwo />
+    <!-- <Home2PricingTwo /> -->
+    <div style="height: 80px;"></div>
     <Home2TestimonialsTwo />
     <Home2BlogTwo />
-    <Home2ClientCarousel />
+    <!-- <Home2ClientCarousel /> -->
     <Home2TextMarquee />
+    <Home2ContactInfo />
   </div>
 </template>
 

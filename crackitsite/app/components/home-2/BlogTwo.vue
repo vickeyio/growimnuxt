@@ -60,7 +60,7 @@
               <div v-if="post.author" class="blog-card-three__author">
                 <img :src="post.author.avatar" alt="crackit" />
                 <div class="blog-card-three__author__content">
-                  <span>By Admin</span><a href="#blog">{{ post.author.name }}</a>
+                  <span>Author</span><a href="#blog">{{ post.author.name }}</a>
                 </div>
               </div>
             </div>

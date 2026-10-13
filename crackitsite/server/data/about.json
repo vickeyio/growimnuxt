@@ -1,0 +1,29 @@
+{
+  "tagline": "About Us",
+  "title": "We're a Strategic Tech Company",
+  "body": "We help businesses across the Kenyan Coast and beyond scale with modern software, cloud infrastructure, and digital solutions — built by a team that truly understands your challenges.",
+  "yearsOfExperience": 5,
+  "stats": [
+    { "value": "200+", "label": "Projects Delivered" },
+    { "value": "98%", "label": "Client Satisfaction" }
+  ],
+  "whyChoose": {
+    "tagline": "SCALE YOUR INFRASTRUCTURE",
+    "title": "Advanced Tech Solutions & Architecture",
+    "body": "Stop wrestling with legacy systems and manual deployments. We build scalable, modern cloud architectures and high-performance applications so your team can focus on growth.",
+    "stats": [
+      { "value": "94%", "label": "Uptime Guarantee" },
+      { "value": "65+", "label": "Tech Solutions Built" }
+    ]
+  },
+  "whyChooseAboutPage": {
+    "tagline": "WHY CHOOSE US",
+    "title": "Why Choose Us",
+    "body": "We are a Mombasa-based technology company delivering robust, scalable software solutions. From cloud infrastructure to mobile applications, we combine technical depth with local market knowledge to help your business grow.",
+    "features": [
+      { "icon": "flaticon-mission", "label": "Business Growth" },
+      { "icon": "flaticon-technology", "label": "Technology Consultancy" }
+    ]
+  }
+}
+

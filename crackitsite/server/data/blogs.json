@@ -29,7 +29,7 @@
     "image": "/assets/images/blog/devopsimg.jpg",
     "isFeatured": false,
     "author": {
-      "name": "Grace Wanjiku",
+      "name": "Admin",
       "avatar": "/assets/images/blog/blog-author-1-2.jpg"
     }
   },
@@ -46,7 +46,7 @@
     "image": "/assets/images/blog/vuevsreacts.jpg",
     "isFeatured": false,
     "author": {
-      "name": "Khamis Ali",
+      "name": "Admin",
       "avatar": "/assets/images/blog/blog-author-1-2.jpg"
     }
   }

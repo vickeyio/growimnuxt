@@ -67,19 +67,19 @@
       </div>
     </div>
     <div class="main-slider-two__social">
-      <a href="https://facebook.com" target="_blank" rel="noopener">
+      <a v-if="contactInfo?.socialLinks?.facebook" :href="contactInfo.socialLinks.facebook" target="_blank" rel="noopener">
         <i class="fab fa-facebook-f" aria-hidden="true"></i>
         <span class="sr-only">Facebook</span>
       </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener">
+      <a v-if="contactInfo?.socialLinks?.twitter" :href="contactInfo.socialLinks.twitter" target="_blank" rel="noopener">
         <i class="fab fa-twitter" aria-hidden="true"></i>
         <span class="sr-only">Twitter</span>
       </a>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+      <a v-if="contactInfo?.socialLinks?.linkedin" :href="contactInfo.socialLinks.linkedin" target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>
         <span class="sr-only">Linkedin</span>
       </a>
-      <a href="https://youtube.com" target="_blank" rel="noopener">
+      <a v-if="contactInfo?.socialLinks?.youtube" :href="contactInfo.socialLinks.youtube" target="_blank" rel="noopener">
         <i class="fab fa-youtube" aria-hidden="true"></i>
         <span class="sr-only">Youtube</span>
       </a>
@@ -93,7 +93,7 @@ import { onMounted, onUnmounted, ref, computed } from 'vue'
 import UiModalVideo from '~/components/ui/ModalVideo.vue'
 
 const isVideoOpen = ref(false)
-const videoUrl = 'https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1'
+const videoUrl = computed(() => contactInfo.value?.videoUrl ?? 'https://www.youtube.com/embed/h9MbznbxlLc?autoplay=1')
 const currentIndex = ref(0)
 const isTransitioning = ref(false)
 let timer: ReturnType<typeof setInterval> | undefined
@@ -103,6 +103,10 @@ const pad = (num: number) => String(num).padStart(2, '0')
 const openVideo = () => {
   isVideoOpen.value = true
 }
+
+const { getContactInfo } = useContact()
+const { data: contactResponse } = await getContactInfo()
+const contactInfo = computed(() => contactResponse.value?.data)
 
 const { getSlides } = useHeroSlides()
 const { data: slidesResponse } = await getSlides()
