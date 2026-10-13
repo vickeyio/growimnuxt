@@ -5,66 +5,32 @@
     <!-- /.main-footer__bg -->
     <div class="main-footer__top">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-xl-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-xl-5">
             <div class="footer-widget footer-widget--about">
               <NuxtLink to="/" class="footer-widget__logo">
                 <img src="/assets/images/logo-light.png" width="160" alt="Crackit" />
               </NuxtLink>
               <p class="footer-widget__text">
-                Empowering businesses with innovative technology solutions. We craft websites, apps, and strategies that drive growth and deliver results. 
+                Empowering businesses with innovative technology solutions for growth, visibility, and long-term impact.
               </p>
-              <NuxtLink class="growim-btn growim-btn--white" to="/contact">
-                <span class="growim-btn__text">Contact Us</span>
-              </NuxtLink>
-              <div class="footer-widget__social">
-                <p class="footer-widget__social__text">Follow on</p>
-                <a href="https://facebook.com" target="_blank" rel="noopener">
-                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
-                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                  <span class="sr-only">Linkedin</span>
-                </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener">
-                  <i class="fab fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">Youtube</span>
-                </a>
-              </div><!-- /.footer-widget__social -->
             </div><!-- /.footer-widget -->
           </div><!-- /.col-md-6 -->
-          <div class="col-md-6 col-xl-2">
-            <div class="footer-widget">
-              <h2 class="footer-widget__title">Quick Link</h2><!-- /.footer-widget__title -->
-              <ul class="list-unstyled footer-widget__links">
-                <li><NuxtLink to="/about">Growim About</NuxtLink></li>
-                <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
-                <li><a href="#blog">Blog &amp; News</a></li>
-                <li><a href="#pricing">FAQ'S</a></li>
-                <li><NuxtLink to="/contact">Login / Register</NuxtLink></li>
-              </ul><!-- /.list-unstyled footer-widget__links -->
-            </div><!-- /.footer-widget -->
-          </div><!-- /.col-md-6 -->
-          <div class="col-md-6 col-xl-2">
+
+          <div class="col-md-6 col-xl-3">
             <div class="footer-widget footer-widget--links">
-              <h2 class="footer-widget__title">our services</h2><!-- /.footer-widget__title -->
+              <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
               <ul class="list-unstyled footer-widget__links">
-                <li><NuxtLink to="/services">digital marketing</NuxtLink></li>
-                <li><NuxtLink to="/services">web development</NuxtLink></li>
-                <li><NuxtLink to="/services">SEO optimized</NuxtLink></li>
-                <li><NuxtLink to="/services">App Development</NuxtLink></li>
-                <li><NuxtLink to="/services">Email Marketing</NuxtLink></li>
+                <li><NuxtLink to="/about">About</NuxtLink></li>
+                <li><NuxtLink to="/services">Services</NuxtLink></li>
+                <li><NuxtLink to="/contact">Contact</NuxtLink></li>
               </ul><!-- /.list-unstyled footer-widget__links -->
             </div><!-- /.footer-widget -->
           </div><!-- /.col-md-6 -->
+
           <div class="col-md-6 col-xl-4">
             <div class="footer-widget footer-widget--contact">
-              <h2 class="footer-widget__title">contact us</h2><!-- /.footer-widget__title -->
+              <h2 class="footer-widget__title">Contact us</h2><!-- /.footer-widget__title -->
               <ul class="list-unstyled footer-widget__info">
                 <li><i class="flaticon-pin"></i>Moi Avenue, Mombasa, Kenya</li>
                 <li><i class="flaticon-phone"></i><a href="tel:+254708365365">+254-708-365-365</a></li>
@@ -103,5 +69,73 @@ const year = new Date().getFullYear()
 
 .main-footer__shape {
   filter: hue-rotate(190deg) saturate(1.2);
+}
+
+.main-footer__top {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.main-footer__top .row {
+  align-items: flex-start;
+}
+
+.footer-widget {
+  height: 100%;
+}
+
+.footer-widget--links,
+.footer-widget--contact {
+  padding-top: 8px;
+}
+
+.footer-widget__text {
+  margin-bottom: 0;
+}
+
+.footer-widget__title {
+  margin-bottom: 30px;
+}
+
+.footer-widget__title::after,
+.footer-widget__title::before {
+  bottom: -18px;
+}
+
+.footer-widget__links,
+.footer-widget__info {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-widget__links li,
+.footer-widget__info li {
+  margin-bottom: 16px;
+}
+
+.footer-widget__links li:last-child,
+.footer-widget__info li:last-child {
+  margin-bottom: 0;
+}
+
+.main-footer__bottom__inner {
+  padding: 16px 0;
+}
+
+@media (min-width: 1200px) {
+  .footer-widget--links {
+    margin-right: 0;
+    padding-left: 18px;
+  }
+
+  .footer-widget--contact {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-footer__top {
+    padding-top: 60px;
+  }
 }
 </style>
