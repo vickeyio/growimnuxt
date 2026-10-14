@@ -3,6 +3,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  runtimeConfig: {
+    smtpHost: 'smtp.gmail.com',
+    smtpPort: 587,
+    smtpUser: '',
+    smtpPassword: '',
+    contactTo: 'info@crackit.co.ke',
+  },
+
   app: {
     head: {
       title: 'Crackit || Premium Tech Startup in Mombasa',
