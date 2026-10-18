@@ -100,14 +100,14 @@
 
             <div
               class="portfolio-details__contact text-center"
-              style="background-image: url(/assets/images/portfolio/portfolio-details-contact-bg.jpg);"
+              style="background-image: url(/assets/images/portfolio/contact.jpeg);"
             >
               <div class="portfolio-details__contact__icon">
                 <i class="flaticon-phone"></i>
               </div>
               <p class="portfolio-details__contact__number">
                 <span>Need Help? Call Here</span>
-                <a href="tel:+2085550112">+208-555-0112</a>
+                <a href="tel:+254708365365">+254-708-365-365</a>
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@
     "category": "Project Management",
     "image": "/assets/images/portfolio/mradi360.jpg",
     "sliderImage": "/assets/images/portfolio/mradi360.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
+    "detailImage": "/assets/images/portfolio/construction.jpeg",
     "client": "Mradi360 Inc",
     "startDate": "12 Jan, 2024",
     "endDate": "20 May, 2024",
@@ -21,8 +21,8 @@
       "Seamless integrations with third-party tools."
     ],
     "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
+      "/assets/images/portfolio/construction-1.jpeg",
+      "/assets/images/portfolio/construction-2.jpeg"
     ],
     "conclusionText": "Mradi360 successfully improved team productivity by 40% and centralized project communication for our client."
   },

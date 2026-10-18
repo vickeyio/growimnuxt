@@ -51,7 +51,7 @@
                 </div>
                 <p class="service-sidebar__contact__number">
                   <span>Need Help? Call Here</span>
-                  <a href="tel:+2085550112">+208-555-0112</a>
+                  <a href="tel:+254708365365">+254-708-365-365</a>
                 </p>
               </div>
             </div>
