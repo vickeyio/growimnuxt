@@ -28,14 +28,14 @@
           <div v-show="!isYearly">
             <div class="row gutter-y-30">
               <div v-for="plan in monthlyPlans" :key="plan.id || plan.title" class="col-md-6 col-lg-6">
-                <Home2PricingCard :plan="plan" />
+                <HomePricingCard :plan="plan" />
               </div>
             </div>
           </div>
           <div v-show="isYearly">
             <div class="row gutter-y-30">
               <div v-for="plan in yearlyPlans" :key="plan.id || plan.title" class="col-md-6 col-lg-6">
-                <Home2PricingCard :plan="plan" />
+                <HomePricingCard :plan="plan" />
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import Home2PricingCard from '~/components/home-2/PricingCard.vue'
+import HomePricingCard from '~/components/home/PricingCard.vue'
 
 const isYearly = ref(false)
 

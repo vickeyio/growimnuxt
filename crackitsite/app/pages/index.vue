@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Home2HeroSliderTwo />
-    <Home2AboutTwo />
-    <Home2ServiceTwo />
-    <Home2WhyChooseTwo />
-    <Home2PortfolioTwo />
-    <!-- <Home2PricingTwo /> -->
+    <HomeHeroSliderTwo />
+    <HomeAboutTwo />
+    <HomeServiceTwo />
+    <HomeWhyChooseTwo />
+    <HomePortfolioTwo />
+    <!-- <HomePricingTwo /> -->
     <div style="height: 80px;"></div>
-    <Home2TestimonialsTwo />
-    <Home2BlogTwo />
-    <!-- <Home2ClientCarousel /> -->
-    <Home2TextMarquee />
-    <Home2ContactInfo />
+    <HomeTestimonialsTwo />
+    <HomeBlogTwo />
+    <!-- <HomeClientCarousel /> -->
+    <HomeTextMarquee />
+    <HomeContactInfo />
   </div>
 </template>
 

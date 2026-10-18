@@ -4,7 +4,7 @@ const path = require('path');
 const replacements = [
   // AboutTwo.vue
   {
-    file: path.join('app', 'components', 'home-2', 'AboutTwo.vue'),
+    file: path.join('app', 'components', 'home', 'AboutTwo.vue'),
     from: "We're Strategic Digital <span>Agency</span>",
     to: "We're a Strategic Tech <span>Company</span>"
   },
@@ -22,7 +22,7 @@ const replacements = [
   },
   // WhyChooseTwo.vue - "Digital Solutions" -> "Tech Solutions"
   {
-    file: path.join('app', 'components', 'home-2', 'WhyChooseTwo.vue'),
+    file: path.join('app', 'components', 'home', 'WhyChooseTwo.vue'),
     from: '>Digital Solutions</p>',
     to: '>Tech Solutions</p>'
   },
