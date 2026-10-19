@@ -87,7 +87,7 @@
     "category": "Rental Management",
     "image": "/assets/images/portfolio/portfolio-2-4.jpg",
     "sliderImage": "/assets/images/portfolio/portfolio-2-4.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
+    "detailImage": "/assets/images/portfolio/PMS-1.jpeg",
     "client": "Makao Estates",
     "startDate": "01 Nov, 2023",
     "endDate": "15 Mar, 2024",
@@ -102,8 +102,8 @@
       "Financial reporting and analytics."
     ],
     "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
+      "/assets/images/portfolio/PMS-2.jpeg",
+      "/assets/images/portfolio/PMS-3.jpeg"
     ],
     "conclusionText": "Makao360 streamlined property operations, increasing on-time rent collections by 25% and improving tenant-landlord communication."
   },
