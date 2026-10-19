@@ -85,8 +85,8 @@
     "slug": "makao360",
     "title": "Makao360",
     "category": "Rental Management",
-    "image": "/assets/images/portfolio/portfolio-2-4.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-4.jpg",
+    "image": "/assets/images/portfolio/portfolio-2-4.jpeg",
+    "sliderImage": "/assets/images/portfolio/portfolio-2-4.jpeg",
     "detailImage": "/assets/images/portfolio/PMS-1.jpeg",
     "client": "Makao Estates",
     "startDate": "01 Nov, 2023",
@@ -106,59 +106,5 @@
       "/assets/images/portfolio/PMS-3.jpeg"
     ],
     "conclusionText": "Makao360 streamlined property operations, increasing on-time rent collections by 25% and improving tenant-landlord communication."
-  },
-  {
-    "id": "5",
-    "slug": "agritech-supply-chain",
-    "title": "AgriTech Supply Chain ERP",
-    "category": "Software Development",
-    "image": "/assets/images/portfolio/portfolio-6-5.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-5.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "Kilimo Coastal Network",
-    "startDate": "05 Nov, 2023",
-    "endDate": "20 March, 2024",
-    "budget": "$35,000",
-    "overview": "We built a custom ERP system for Kilimo Coastal Network to manage their entire agricultural supply chain, from farmers to distributors.",
-    "overviewSecondary": "The platform includes inventory management, payment processing, and advanced reporting dashboards to optimize the distribution of produce.",
-    "goalsText": "To digitize the supply chain, reduce produce wastage, and ensure farmers get paid on time.",
-    "goalsBullets": [
-      "Custom ERP architecture.",
-      "Real-time inventory tracking.",
-      "Automated payment disbursements.",
-      "Data visualization and reporting."
-    ],
-    "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
-    ],
-    "conclusionText": "The ERP reduced supply chain inefficiencies by 40%, significantly lowering produce wastage and improving farmer satisfaction."
-  },
-  {
-    "id": "6",
-    "slug": "cloud-migration-healthcare",
-    "title": "Healthcare Cloud Migration",
-    "category": "Cloud & DevOps",
-    "image": "/assets/images/portfolio/portfolio-6-6.jpg",
-    "sliderImage": "/assets/images/portfolio/portfolio-2-1.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
-    "client": "Pwani MedCenter",
-    "startDate": "10 Dec, 2023",
-    "endDate": "20 Feb, 2024",
-    "budget": "$18,000",
-    "overview": "We successfully migrated Pwani MedCenter's legacy patient management system to a secure, HIPAA-compliant AWS cloud infrastructure.",
-    "overviewSecondary": "Our DevOps team also set up automated backups, disaster recovery protocols, and CI/CD pipelines for their internal software updates.",
-    "goalsText": "To move away from unreliable on-premise servers and ensure patient data is highly secure and accessible 24/7.",
-    "goalsBullets": [
-      "AWS cloud architecture design.",
-      "Secure data migration.",
-      "Implementation of CI/CD pipelines.",
-      "Disaster recovery planning."
-    ],
-    "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
-    ],
-    "conclusionText": "The hospital now experiences zero downtime, and their IT infrastructure costs have been reduced by 25% while vastly improving security."
   }
 ]
