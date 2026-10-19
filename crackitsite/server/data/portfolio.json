@@ -60,7 +60,7 @@
     "category": "Health Management",
     "image": "/assets/images/portfolio/afya365.jpg",
     "sliderImage": "/assets/images/portfolio/afya365.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
+    "detailImage": "/assets/images/portfolio/afya-1.jpeg",
     "client": "AfyaCare Networks",
     "startDate": "10 Aug, 2023",
     "endDate": "30 Jan, 2024",
@@ -75,8 +75,8 @@
       "Telemedicine capabilities."
     ],
     "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
+      "/assets/images/portfolio/afya-2.jpeg",
+      "/assets/images/portfolio/afya-3.jpeg"
     ],
     "conclusionText": "Afya365 significantly reduced administrative overhead and improved patient satisfaction scores across deployed clinics."
   },
