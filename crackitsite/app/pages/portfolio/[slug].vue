@@ -68,13 +68,23 @@
               </p>
 
               <div class="portfolio-details__pagination">
-                <NuxtLink class="portfolio-details__pagination__item" to="/portfolio">
-                  <img src="/assets/images/portfolio/pagination-prev.jpg" alt="growim" />
+                <NuxtLink
+                  class="portfolio-details__pagination__item portfolio-details__pagination__item--prev"
+                  :to="prevItem ? `/portfolio/${prevItem.slug}` : '/portfolio'"
+                >
+                  <span class="portfolio-details__pagination__icon">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                  </span>
                   Previous
                 </NuxtLink>
-                <NuxtLink class="portfolio-details__pagination__item" to="/portfolio">
+                <NuxtLink
+                  class="portfolio-details__pagination__item portfolio-details__pagination__item--next"
+                  :to="nextItem ? `/portfolio/${nextItem.slug}` : '/portfolio'"
+                >
                   Next
-                  <img src="/assets/images/portfolio/pagination-next.jpg" alt="growim" />
+                  <span class="portfolio-details__pagination__icon">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </span>
                 </NuxtLink>
               </div>
             </div>
@@ -162,11 +172,34 @@
 
 <script setup lang="ts">
 const route = useRoute()
-const slug = computed(() => (route.params.slug as string) || 'generation-of-wealth-1')
+const slug = computed(() => (route.params.slug as string) || 'mradi360')
 
-const { getPortfolioItemBySlug } = usePortfolio()
+const { getPortfolioItemBySlug, getPortfolioItems } = usePortfolio()
 const { data: itemResponse, status, error } = await getPortfolioItemBySlug(slug)
 const item = computed(() => itemResponse.value?.data)
+
+const { data: allItemsResponse } = await getPortfolioItems()
+const allItems = computed(() => allItemsResponse.value?.data || [])
+
+const currentIndex = computed(() =>
+  allItems.value.findIndex(p => p.slug === slug.value)
+)
+
+const prevItem = computed(() => {
+  const list = allItems.value
+  const idx = currentIndex.value
+  if (idx > 0) return list[idx - 1]
+  if (idx === 0 && list.length > 1) return list[list.length - 1]
+  return null
+})
+
+const nextItem = computed(() => {
+  const list = allItems.value
+  const idx = currentIndex.value
+  if (idx !== -1 && idx < list.length - 1) return list[idx + 1]
+  if (idx === list.length - 1 && list.length > 1) return list[0]
+  return null
+})
 </script>
 
 <style scoped>

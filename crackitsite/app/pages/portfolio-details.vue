@@ -54,13 +54,23 @@
               </p>
 
               <div class="portfolio-details__pagination">
-                <NuxtLink class="portfolio-details__pagination__item" to="/portfolio">
-                  <img src="/assets/images/portfolio/pagination-prev.jpg" alt="growim" />
+                <NuxtLink
+                  class="portfolio-details__pagination__item portfolio-details__pagination__item--prev"
+                  to="/portfolio"
+                >
+                  <span class="portfolio-details__pagination__icon">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                  </span>
                   Previous
                 </NuxtLink>
-                <NuxtLink class="portfolio-details__pagination__item" to="/portfolio">
+                <NuxtLink
+                  class="portfolio-details__pagination__item portfolio-details__pagination__item--next"
+                  to="/portfolio"
+                >
                   Next
-                  <img src="/assets/images/portfolio/pagination-next.jpg" alt="growim" />
+                  <span class="portfolio-details__pagination__icon">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </span>
                 </NuxtLink>
               </div>
             </div>

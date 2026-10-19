@@ -33,7 +33,7 @@
     "category": "POS System",
     "image": "/assets/images/portfolio/dukapal.jpg",
     "sliderImage": "/assets/images/portfolio/dukapal.jpg",
-    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpg",
+    "detailImage": "/assets/images/portfolio/portfolio-details-1.jpeg",
     "client": "Dukapal Retail",
     "startDate": "05 Mar, 2024",
     "endDate": "15 Jul, 2024",
@@ -48,8 +48,8 @@
       "Comprehensive sales reporting."
     ],
     "galleryImages": [
-      "/assets/images/portfolio/portfolio-details-2.jpg",
-      "/assets/images/portfolio/portfolio-details-3.jpg"
+      "/assets/images/portfolio/portfolio-details-2.jpeg",
+      "/assets/images/portfolio/portfolio-details-3.jpeg"
     ],
     "conclusionText": "Dukapal reduced checkout times by 30% and provided merchants with invaluable insights into their daily operations."
   },
